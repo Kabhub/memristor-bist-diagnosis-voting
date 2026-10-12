@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/workspace/scratch/ba6f76aad974/tmp/three_primary_boundary/build/Vtb_q2_remap_w16"
+  ],
+  "exit_code": 0,
+  "run_elapsed_seconds": 0.9074199950009643,
+  "date": "2026-10-12",
+  "simulator_version": "Verilator 5.49 (simulation runtime); compiler reports rev vUNKNOWN-built20260516-4e853d8",
+  "provenance": "Actual Linux Verilator execution; no Vivado execution in this added record.",
+  "build_elapsed_seconds": 20.242
+}

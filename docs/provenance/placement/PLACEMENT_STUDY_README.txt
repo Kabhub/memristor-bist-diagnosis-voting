@@ -16,17 +16,9 @@ unchanged at the raw reports' 1-mW precision, Medium confidence.
 These are three directive choices, not independent random seeds. Internal
 registered OOC timing does not establish interface timing or verified Fmax.
 Power includes benchmark register banks and BUFG; it is not board power.
-The returned source manifest matches the delivered packet. Results do not
-include an independent runtime source rehash or a per-run command transcript.
-Raw reports and checkpoints are preserved exactly as returned.
-
-The updated manuscript includes Table 10 and revises methods, limitations,
-conclusion and Appendix B. Earlier tables use their stated Default boundary.
-Total execution records: 28; unique configurations: 24 (23 at 100 MHz).
-Default repetitions are execution records, counted once as configurations.
-No figures or bibliography entries were changed in this revision.
-
-Remaining author work: confirm conflict/funding/contribution facts and data
-repository; optional author-deferred board photos; choose the target journal
-and follow its submission requirements. Real-device and multiword validation
-remain research limitations, not results inferred from this study.
+Source manifests and raw reports are included in results/placement_sensitivity.
+The three Default repetitions are separate execution records but represent
+the same configurations. The study evaluates nine directive configurations;
+the wider recorded dataset contains 28 execution records and 24 unique
+configurations (23 at 100 MHz). Real-device and multiword-array validation
+are outside this experiment's scope.

@@ -1,0 +1,8 @@
+{
+  "1_RUN_SIMULATION.bat": "3a70684d901df21b787361799bd87bbc0fb3de775ba76b004ccca27801937d37",
+  "README.md": "4396a2b10ac4ac3d95a624e0f35a278350ae3946eabd736d93b7bcf6b333b3b5",
+  "rtl/publication_scalable_memristor_core.sv": "d256d3dce20659650bb2b382c14afaf6ced9c29db505ebdf88e318bc814ba414",
+  "rtl/q2_shared_spare_core.sv": "266447e06659b3f4dfc3049c8ba02e2461591635bb851f85d3f4bd7d30686b97",
+  "run_simulation.tcl": "e31d63ce02cd6241db090190130f981e42e5b7437beef39fa8a647364e4514c6",
+  "tb/tb_q2_remap.sv": "66e090a0a7ce26ae1c94e1aae779d7a23299faaf8b50b7ccc7d75fa5cf0e680f"
+}

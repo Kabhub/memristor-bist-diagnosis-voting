@@ -1,9 +1,9 @@
 {
-  "VALIDATION.md": "dbedc6ea52e3b43465eb370068a8926b12ad50cf5a71745ab1c4d8b04de8f1bd",
+  "VALIDATION.md": "f877c927a7216c569af7e765b42feb638aa89511ac89d5d2082b208a4ac53bed",
   "RUN_PLACEMENT_STUDY.bat": "4fec96616e85990cb76b9d65b36c4157ca61483e3cdf828680529d790a760a81",
   "run_implementation.tcl": "6c9a08b5b8bd01dd72514a657c38bcc4060a98de8fffa25f48dd13b386420b66",
   "VALIDATION_RECORD.json": "f7bb2a724b9fd2d513acb13069b95d95f4a55c4d3839981a313ccd54a9c60bc7",
-  "README.txt": "de75811ead1fa7c71dba29cf07e5b499bf096ac859a6f012e1bc17f5edd7e457",
+  "README.txt": "50dd88c52f24aad1f00d6c18c34883f4feaffd9f6419e022732f2731980a384c",
   "rtl/q2_proposed_wrapper.sv": "a865eee94acda04e11cb239f6953f3eacaf666cc468a8ac997e6e6a86c9ee55c",
   "rtl/q2_shared_spare_core.sv": "266447e06659b3f4dfc3049c8ba02e2461591635bb851f85d3f4bd7d30686b97",
   "rtl/publication_scalable_memristor_core.sv": "d256d3dce20659650bb2b382c14afaf6ced9c29db505ebdf88e318bc814ba414",

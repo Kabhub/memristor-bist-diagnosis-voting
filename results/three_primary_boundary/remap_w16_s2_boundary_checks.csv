@@ -1,0 +1,5 @@
+check,remap_result,proposal_result,status
+three_primary_faults,rejected_bit_2,not_instantiated,PASS
+new_fault_after_diagnosis,silent_wrong_bit_0,not_instantiated,PASS
+late_fault_after_retest,accepted_correct,not_scored,PASS
+clear_fault_maps_and_remap,accepted_correct,not_scored,PASS

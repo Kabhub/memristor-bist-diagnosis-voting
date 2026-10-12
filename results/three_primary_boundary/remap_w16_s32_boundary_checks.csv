@@ -1,0 +1,6 @@
+check,remap_result,proposal_result,status
+three_primary_faults,accepted_correct,accepted_correct,PASS
+triple_replica_site_faults,accepted_correct,rejected_bit_0,PASS
+new_fault_after_diagnosis,silent_wrong_bit_0,accepted_correct,PASS
+late_fault_after_retest,accepted_correct,not_scored,PASS
+clear_fault_maps_and_remap,accepted_correct,not_scored,PASS

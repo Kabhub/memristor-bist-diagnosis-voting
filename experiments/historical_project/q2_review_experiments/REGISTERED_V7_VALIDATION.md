@@ -1,3 +1,8 @@
+> **Historical local validation note.** This records tool/control-flow checks
+> from its original preparation stage. Completed experiment data are in
+> the repository-root results/ directory; use docs/EVIDENCE_MAP.md to
+> locate the final evidence.
+
 # Registered benchmark v7
 
 Evidence from v6: standard TMR W32 completes implementation, but setup
@@ -38,7 +43,9 @@ Completed local validation:
 - Control-flow tests use mocked commands and synthetic results in temporary
   directories. They are not FPGA implementation results.
 
-The Vivado W32 check is still required. Timing closure is not guaranteed.
+Completed W32 Vivado data are now recorded in the repository-root
+results/registered_implementation/. A completed flow must be assessed separately
+from timing closure using timing_met and the setup/hold reports.
 Final integrated board timing is a separate hardware implementation result.
 
 Primary sources:

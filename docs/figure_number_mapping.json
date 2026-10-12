@@ -34,10 +34,5 @@
     "7": "S2",
     "8": "S3",
     "10": "S4"
-  },
-  "abstract_words": 217,
-  "plain_TMR_sweep": "Actual Verilator 5.49, 384/384, no BIST",
-  "author_roles": "Confirmed roles retained by user request",
-  "unperformed": "Prior-two-fault-plus-new sweep; compact/ECP baseline; multiword prototype; transient/read-disturb system campaigns",
-  "publication_pending": "Licence agreement, public repository/release URL, publisher landing-page access for blocked records, target journal"
+  }
 }

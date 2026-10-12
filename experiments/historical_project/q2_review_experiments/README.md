@@ -1,4 +1,8 @@
-# Q2 Reviewer Experiment Pack
+# Registered baselines and software-model experiments
+
+Recorded final data are under ../../../results/registered_implementation/ and
+../../../results/models/. Coverage CSVs from Python assume a perfect diagnosis
+map; BIST-in-loop RTL results are in ../../../results/end_to_end/.
 
 This folder adds the experiments requested during review without replacing the
 original publication evidence.  It addresses the weak-baseline, scale,
@@ -32,7 +36,7 @@ Extract the ZIP first. Open **Command Prompt** in this folder and run:
 Then open the **Vivado Tcl Shell** or Vivado's Tcl console and follow
 `RUN_FROM_VIVADO_TCL.txt`. Run functional simulation before implementation.
 
-The recommended implementation campaign is `3_RUN_VIVADO_QUICK.bat` from a
+The registered benchmark used for the paper is `3C_RUN_REGISTERED_QUICK.bat` from a
 Vivado-enabled command prompt. It is resumable: completed runs have a
 `COMPLETE.txt` marker and are skipped if the command is restarted. The full
 campaign is optional and much longer.
@@ -44,8 +48,8 @@ After Vivado completes:
 5_PACKAGE_RESULTS.bat
 ```
 
-Send back `q2_review_results.zip`. It contains the CSVs, metadata, reports,
-checkpoints, and figures needed to update the journal.
+The packaging command creates `q2_review_results.zip` with generated CSVs,
+metadata, reports, checkpoints and figures. Preserve recorded results separately.
 
 ## Experiment boundaries
 
@@ -66,4 +70,3 @@ checkpoints, and figures needed to update the journal.
 S. Kvatinsky, M. Ramadan, E. G. Friedman, and A. Kolodny, “VTEAM: A General
 Model for Voltage-Controlled Memristors,” *IEEE Transactions on Circuits and
 Systems II: Express Briefs*, 2015, DOI: `10.1109/TCSII.2015.2433536`.
-

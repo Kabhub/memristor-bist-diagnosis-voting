@@ -1,0 +1,25 @@
+{
+  "scope": "Tcl command-stub checks only; not Vivado execution.",
+  "checks": [
+    {
+      "case": "pass",
+      "status": "PASS"
+    },
+    {
+      "case": "missing_boundary_marker",
+      "status": "PASS"
+    },
+    {
+      "case": "wrong_boundary_marker",
+      "status": "PASS"
+    },
+    {
+      "case": "short_boundary_trace",
+      "status": "PASS"
+    },
+    {
+      "case": "wrong_proposal_word",
+      "status": "PASS"
+    }
+  ]
+}

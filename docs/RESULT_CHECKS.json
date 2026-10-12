@@ -1,0 +1,75 @@
+{
+  "checked_on": "2026-10-12",
+  "checks": [
+    {
+      "check": "W8 scenario count",
+      "status": "PASS",
+      "source": "archive/initial_campaigns/q2_fault_campaign_results.csv",
+      "value": 1153
+    },
+    {
+      "check": "W8 actual RTL completion",
+      "status": "PASS",
+      "source": "archive/initial_campaigns/verification_logs/tb_fault_campaign_q2_1153_run.log",
+      "value": "1,153 passed"
+    },
+    {
+      "check": "W16 scenario count",
+      "status": "PASS",
+      "source": "results/end_to_end/w16_xsim/e2e_w16_summary.csv",
+      "value": 4609
+    },
+    {
+      "check": "W16 BIST exact localization",
+      "status": "PASS",
+      "source": "results/end_to_end/w16_xsim/e2e_w16_summary.csv",
+      "value": 4608
+    },
+    {
+      "check": "W32 scenario count",
+      "status": "PASS",
+      "source": "results/end_to_end/w32_verilator/e2e_w32_summary.csv",
+      "value": 18433
+    },
+    {
+      "check": "W32 BIST exact localization",
+      "status": "PASS",
+      "source": "results/end_to_end/w32_verilator/e2e_w32_summary.csv",
+      "value": 18432
+    },
+    {
+      "check": "W16 proposed LUT and FF counts",
+      "status": "PASS",
+      "source": "results/registered_implementation/implementation_summary.csv",
+      "value": {
+        "luts": 278,
+        "ffs": 165
+      }
+    },
+    {
+      "check": "proposal clean-start new-fault result",
+      "status": "PASS",
+      "source": "experiments/late_fault_and_geometric/proposed_late_summary.csv",
+      "value": "384/384; 0 silent errors; 0 rejected"
+    },
+    {
+      "check": "plain TMR clean-start new-fault result",
+      "status": "PASS",
+      "source": "experiments/plain_tmr_late_fault/plain_tmr_late_summary.csv",
+      "value": "384/384; 0 silent errors; 0 rejected"
+    },
+    {
+      "check": "Plain-TMR detailed trace length",
+      "status": "PASS",
+      "source": "experiments/plain_tmr_late_fault/plain_tmr_late_scenarios.csv",
+      "value": 384
+    },
+    {
+      "check": "Plain TMR appears in paper new-fault table",
+      "status": "PASS",
+      "source": "Memristor_Journal_Final.docx, clean-start new-fault table",
+      "value": "Plain-TMR row present"
+    }
+  ],
+  "preserved_code_and_evidence_files": 468
+}

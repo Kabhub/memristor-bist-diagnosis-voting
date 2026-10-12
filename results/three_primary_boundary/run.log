@@ -1,0 +1,18 @@
+SPARES=2 progress 500/649
+SPARES=32 progress 500/4609
+ALL 649 REMAP SCENARIOS PASSED: SPARES=2; checks=2596; latency=21
+SPARES=32 progress 1000/4609
+SPARES=32 progress 1500/4609
+SPARES=32 progress 2000/4609
+SPARES=32 progress 2500/4609
+SPARES=32 progress 3000/4609
+SPARES=32 progress 3500/4609
+SPARES=32 progress 4000/4609
+SPARES=32 progress 4500/4609
+ALL 32 THREE-PRIMARY PROPOSAL AND PLAIN-TMR WORD CHECKS PASSED
+ALL 4609 REMAP SCENARIOS PASSED: SPARES=32; checks=18436; latency=21
+ALL DEFECT-AWARE BASELINE TESTS PASSED
+- tb/tb_q2_remap.sv:256: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 1ms; walltime 0.904 s; speed 1.585 ms/s
+- Verilator: cpu 0.904 s on 1 threads; allocated 7 MB

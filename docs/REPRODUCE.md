@@ -1,13 +1,14 @@
 # Reproduce the experiments
 
-Run commands from the specified experiment directory. Drivers locate source relative to their own file. Do not mix source revisions or overwrite recorded results/.
+Batch launchers and the documented Vivado flows target Windows; the Verilator
+commands below target Linux with a C++20 compiler and GNU Make. Run commands from the specified experiment directory. Drivers locate source relative to their own file. Do not mix source revisions or overwrite recorded results/.
 
 ## End-to-end BIST
 
 From experiments/q2_e2e_campaign on Windows, double-click RUN_16_BIT.bat, or run Vivado in batch with `-source run_e2e.tcl -tclargs 16`. The driver creates a separate on-disk simulation project. Success requires ALL 4609 END-TO-END BIST SCENARIOS PASSED and e2e_w16_PASS.txt; check LATEST_RUN.txt for output location.
 For W32 use the same Tcl driver with `-tclargs 32`; the supplied recorded W32 result is from Verilator, not XSIM.
 
-Linux W16/W32 alternative from that directory:
+Linux W16/W32 alternative from that directory (use a fresh copy to preserve recorded output files):
 
 ```sh
 verilator --binary --timing --assert -CFLAGS '-std=c++20' --top-module tb_q2_bist_e2e_w16 rtl/publication_scalable_memristor_core.sv tb/tb_q2_bist_e2e.sv
@@ -61,3 +62,13 @@ From experiments/plain_tmr_late_fault/ (Linux), use its README commands. The exi
 ## Numeric figures
 
 From repository root run `python scripts/regenerate_figures.py`. It rebuilds numeric plots 3-11 from recorded CSVs under figures/regenerated. Styling may differ from the preserved publication masters; the source data are the same. Architectural diagrams are retained as supplied image/vector masters. Consult docs/figure_number_mapping.json for current main/supplement numbering.
+
+## Explicit three-primary boundary output checks
+
+Windows: run experiments/three_primary_boundary/1_RUN_SIMULATION.bat from a short
+local extraction path. This reruns the functional campaigns and adds 32 explicit
+proposal/plain-TMR assertions for IDs 0,1,2. It does not run implementation.
+Require ALL 32 THREE-PRIMARY PROPOSAL AND PLAIN-TMR WORD CHECKS PASSED and
+ALL DEFECT-AWARE BASELINE TESTS PASSED. The detailed trace must contain 32 rows.
+Linux commands and the exact scope are in the experiment README. The supplied
+added results are actual Verilator records in results/three_primary_boundary.

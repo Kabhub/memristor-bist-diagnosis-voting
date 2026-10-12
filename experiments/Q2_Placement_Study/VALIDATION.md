@@ -1,3 +1,8 @@
+> **Historical local validation note.** This records tool/control-flow checks
+> from its original preparation stage. Completed experiment data are in
+> the repository-root results/ directory; use docs/EVIDENCE_MAP.md to
+> locate the final evidence.
+
 # Validation boundary
 
 RTL files are byte-for-byte copies of the W16 packet already tested in XSIM and

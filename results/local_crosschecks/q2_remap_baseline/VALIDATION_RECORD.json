@@ -1,4 +1,5 @@
 {
+  "record_scope": "Historical Linux and command-stub pre-execution validation. Completed Windows Vivado/XSIM data are in results/defect_aware at repository root.",
   "simulator": "Verilator 5.49 Linux: actual RTL execution",
   "vivado_execution": "Not installed here. Simulation driver and implementation driver executed with command stubs only; user Vivado results still required.",
   "scope": "Single-word behavioural model; exhaustive stable stuck-LRS/stuck-HRS orders 0/1/2; four word backgrounds; selected extra boundary and post-diagnosis fault assertions.",

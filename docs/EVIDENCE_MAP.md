@@ -16,6 +16,7 @@
 | Supplement S5-S6, VTEAM/exploratory faults | results/models/device_validation |
 | Supplement S7, initial wrapper/SAIF | archive/initial_campaigns/publication_activity_power_reports |
 | Supplement S8, unpaired guard controls | results/models/variation/architecture_variation_summary.csv, calibrated_guard10_r5 rows |
+| Additional explicitly scored three-primary boundary (not yet inserted into manuscript) | results/three_primary_boundary/proposed_three_primary_word_checks.csv; experiments/three_primary_boundary/ testbench |
 | Proposed multiword sketch | Original figure_12 asset (main Figure 8); no multiword RTL result |
 | ZedBoard deployment | board/ sources; archive/initial_campaigns/zedboard_q2_demo_reports |
 

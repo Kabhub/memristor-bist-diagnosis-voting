@@ -1,3 +1,8 @@
+> **Historical local validation note.** This records tool/control-flow checks
+> from its original preparation stage. Completed experiment data are in
+> the repository-root results/ directory; use docs/EVIDENCE_MAP.md to
+> locate the final evidence.
+
 # Package validation record
 
 Validation date: 2026-10-10
@@ -42,4 +47,3 @@ Aggregate rates across architectures should not be compared without noting
 their different physical codeword sizes. Use `coverage_by_fault_order.csv` for
 like-for-like no-, single-, and double-fault statements, and always report the
 physical-cell count beside the total scenario count.
-

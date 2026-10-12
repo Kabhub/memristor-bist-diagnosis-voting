@@ -1,16 +1,21 @@
 # Defect-aware comparison for the memristor paper
 
-## Run on your Windows PC
+Recorded completion: both W16 static campaigns passed in XSIM and the three
+registered designs were implemented in Vivado. Final records are in
+../../results/defect_aware/; placement sensitivity is in
+../../results/placement_sensitivity/.
 
-1. Extract this ZIP into `C:\Q2`. You should see
-   `C:\Q2\DEFECT_BASELINE\1_RUN_SIMULATION.bat`.
+## Reproduce on Windows
+
+1. Extract the repository into `C:\Q2\repo`
+   and open `experiments\q2_remap_baseline`.
 2. Double-click **1_RUN_SIMULATION.bat**. This creates a separate Vivado
    simulation project; your board project does not need to be open.
 3. Continue only after **ALL DEFECT-AWARE BASELINE TESTS PASSED**.
 4. Double-click **2_RUN_IMPLEMENTATION.bat**. This performs **three**
    16-bit, 100 MHz registered comparisons. It stops on a flow/metric error.
-5. Zip the entire `DEFECT_BASELINE\results` folder and send it back. Also
-   send `vivado.log` if a run failed. No board programming is required.
+5. Retain the generated results and Vivado log. Compare the summary CSVs
+   with ../../results/defect_aware/. No board programming is required.
 
 The launchers look for
 `C:\AMDDesignTools\2026.1\Vivado\bin\vivado.bat`, then `vivado.bat` on PATH.
@@ -23,9 +28,9 @@ project, single-thread elaboration and debug disabled, as in the successful
 If needed, use a separate, empty Vivado Tcl session:
 
 ```tcl
-source {C:/Q2/DEFECT_BASELINE/run_simulation.tcl}
+source {C:/Q2/repo/experiments/q2_remap_baseline/run_simulation.tcl}
 # Only after the functional simulation has passed:
-source {C:/Q2/DEFECT_BASELINE/run_implementation.tcl}
+source {C:/Q2/repo/experiments/q2_remap_baseline/run_implementation.tcl}
 ```
 
 `LATEST_SIMULATION.txt` and `LATEST_IMPLEMENTATION.txt` identify the result
@@ -108,7 +113,7 @@ Extra boundary checks are listed separately in `*_boundary_checks.csv`:
 - A new stuck-HRS fault at primary ID 0 **after a clean diagnosis** corrupts
   the remapper's single active copy without a fresh rejection flag. The paired
   proposal still has three initially healthy replicas and masks that single
-  new fault. This is a selected late-fault test, not exhaustive temporal coverage.
+  new fault. The exhaustive clean-start single-new-fault sweep is recorded separately in ../late_fault_and_geometric/.
 - Retesting repairs the new fault. Clearing faults and rerunning BIST restores
   clean diagnosis and identity mappings.
 
@@ -133,10 +138,10 @@ configuration per design, so it does not replace a timing-robustness study.
 Power is a whole-benchmark vectorless estimate including register banks and
 BUFG, not measured board power or isolated-core power.
 
-No FPGA LUT counts, timing or power values are predicted in this package.
-Those measurements must come from your Vivado reports. Retain any result
-showing a baseline advantage; the experiment tests a tradeoff rather than
-assuming the proposed design will win every metric.
+Recorded FPGA measurements are in ../../results/defect_aware/implementation_w16.
+They are measured behavioural-emulation costs under the stated benchmark
+boundary. The experiment evaluates a storage, latency and implementation-cost
+tradeoff; it does not establish a physical-array area advantage.
 
 ## Provenance and relation to literature
 
@@ -160,5 +165,6 @@ passed locally, as did the paired proposal checks and separate boundary tests.
 All three registered shells passed Verilator lint using a logical BUFG model.
 Driver completion/error/resume handling was tested using Tcl command stubs;
 those are control-flow checks, not Vivado execution or FPGA synthesis evidence.
-Vivado is unavailable in the build environment. Your Windows Vivado run is
-still required. `SOURCE_SHA256.json` records the shipped source hashes.
+The local command-stub records are pre-execution checks; completed Windows
+Vivado/XSIM evidence is in ../../results/defect_aware/. `SOURCE_SHA256.json`
+records the evaluated RTL and runner hashes.

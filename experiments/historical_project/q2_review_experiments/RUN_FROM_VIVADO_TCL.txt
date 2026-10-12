@@ -1,3 +1,7 @@
+HISTORICAL DRIVER NOTES: the documented wrappers below predate the registered
+benchmark. Use docs/REPRODUCE.md and results/registered_implementation at
+repository root for the final benchmark protocol and completed evidence.
+
 Q2 REVIEW EXPERIMENTS - VIVADO TCL COMMANDS
 ===========================================
 
@@ -40,5 +44,5 @@ results show that more implementation-strategy evidence is needed.
 4_SUMMARIZE_VIVADO_QUICK.bat
 5_PACKAGE_RESULTS.bat
 
-Send back q2_review_results.zip.
+The packaging command writes q2_review_results.zip; retain it with the run logs.
 

@@ -1,3 +1,8 @@
+> **Historical local validation note.** This records tool/control-flow checks
+> from its original preparation stage. Completed experiment data are in
+> the repository-root results/ directory; use docs/EVIDENCE_MAP.md to
+> locate the final evidence.
+
 # OOC v6 clock-context and hold patch
 
 The uploaded v5 report has routed state, no unconstrained endpoints,

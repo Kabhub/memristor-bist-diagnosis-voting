@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-12",
+  "width": 16,
+  "physical_fault_ids": [
+    0,
+    1,
+    2
+  ],
+  "polarity_assignments": 8,
+  "backgrounds": [
+    "0000",
+    "ffff",
+    "aaaa",
+    "5555"
+  ],
+  "proposal_word_checks": 32,
+  "proposal_accepted_correct": 32,
+  "plain_tmr_word_checks": 32,
+  "plain_tmr_accepted_correct": 32,
+  "proposal_rejected": 0,
+  "all_maps_and_validity_assertions_passed": true,
+  "rerun_static_scenarios": {
+    "compact_remapper": 649,
+    "matched_remapper": 4609
+  },
+  "status": "PASS",
+  "scope": "Selected three-fault placement across three distinct bits, not arbitrary triple-fault coverage.",
+  "tool": "Actual Linux Verilator execution; added Windows runner not executed in Vivado here."
+}

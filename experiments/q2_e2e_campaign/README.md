@@ -1,12 +1,15 @@
 # End-to-end resistance-aware BIST campaign
 
-## Run this next
+Recorded completion: W16 XSIM passed 4,609 scenarios; W32 Verilator passed
+18,433 scenarios. Final records are in ../../results/end_to_end/.
 
-1. Extract the ZIP into `C:\Q2`. It creates the folder `C:\Q2\E2E_BIST` (a short local path).
+## Reproduce on Windows
+
+1. Extract the repository into `C:\Q2\repo` and open this experiment directory.
 2. Double-click `RUN_16_BIT.bat`.
 3. Wait for `ALL 4609 END-TO-END BIST SCENARIOS PASSED`.
 4. Open `LATEST_RUN.txt`. It gives the exact completed result directory.
-5. Send that directory as a ZIP, or send its summary CSV, scenario CSV, PASS marker, configuration text and simulation logs.
+5. Retain the summary/scenario CSVs, PASS marker, configuration and logs; compare them with the recorded results.
 
 The batch file uses your previously reported Vivado location, `C:\AMDDesignTools\2026.1\Vivado\bin\vivado.bat`, then checks the system path. If your installation is elsewhere, set `Q2_VIVADO_BIN` to its `bin` directory or use the Tcl alternative below. Existing FPGA projects can remain closed. This creates a separate on-disk simulation project and does not synthesize, route or program the board.
 
@@ -15,7 +18,7 @@ The batch file uses your previously reported Vivado location, `C:\AMDDesignTools
 Open Vivado with no project open, then run:
 
 ```tcl
-source {C:/Q2/E2E_BIST/run_e2e.tcl}
+source {C:/Q2/repo/experiments/q2_e2e_campaign/run_e2e.tcl}
 ```
 
 The braces prevent Tcl from splitting paths containing spaces, but the short local path is recommended for the Windows simulator toolchain. No `cd` command is needed.
@@ -52,12 +55,12 @@ Each execution creates a unique `results/w16_.../` directory. Outputs include:
 
 The Tcl driver validates the testbench's completion marker, CSV row count and summary status. It does not declare success merely because simulation returned. On failure, inspect `RUN_FAILED.txt` in the latest attempt directory and the Vivado log. A previous successful `LATEST_RUN.txt` can remain after a later failed attempt; use the current console result and newest attempt directory when troubleshooting.
 
-## Optional 32-bit campaign
+## Reproduce the 32-bit campaign
 
-The same testbench includes a 32-bit top. After the 16-bit result is confirmed, an optional separate batch run is:
+The same testbench includes a 32-bit top. To run the same 32-bit testbench in XSIM:
 
 ```bat
-"C:\AMDDesignTools\2026.1\Vivado\bin\vivado.bat" -mode batch -source "C:\Q2\E2E_BIST\run_e2e.tcl" -tclargs 32
+"C:\AMDDesignTools\2026.1\Vivado\bin\vivado.bat" -mode batch -source "C:\Q2\repo\experiments\q2_e2e_campaign\run_e2e.tcl" -tclargs 32
 ```
 
 This enumerates 18433 scenarios over 96 cells, with 36866 primary checks and another 36866 mixed-pattern checks. The optional campaign is RTL simulation, not an additional implementation sweep.
@@ -68,7 +71,7 @@ This enumerates 18433 scenarios over 96 cells, with 36866 primary checks and ano
 
 `SOURCE_SHA256.json` identifies the packaged RTL, testbench and runners. The resistance core is copied without modifications from the publication project. The package adds test and run files only.
 
-The next technical experiment after this campaign is a defect-aware baseline under a clearly defined comparison protocol. This package addresses larger-width diagnosis in the BIST loop; it does not add that baseline.
+The completed defect-aware comparison is in ../q2_remap_baseline; its recorded results are in ../../results/defect_aware. Linux Verilator commands for W16 and W32 are in ../../docs/REPRODUCE.md.
 
 ## Vivado command references
 

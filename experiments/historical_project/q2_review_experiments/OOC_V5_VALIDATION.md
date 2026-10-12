@@ -1,3 +1,8 @@
+> **Historical local validation note.** This records tool/control-flow checks
+> from its original preparation stage. Completed experiment data are in
+> the repository-root results/ directory; use docs/EVIDENCE_MAP.md to
+> locate the final evidence.
+
 # OOC v5 implementation correction
 
 This patch follows the uploaded three-row `implementation_summary.csv`, the
@@ -54,4 +59,3 @@ placement, or routing. Those checks remain pending on the user's PC.
   https://docs.amd.com/r/en-US/ug903-vivado-using-constraints/About-Constraining-I/O-Delay
 - AMD DS190, Table 2, device-package combinations:
   https://docs.amd.com/v/u/en-US/ds190-Zynq-7000-Overview
-
