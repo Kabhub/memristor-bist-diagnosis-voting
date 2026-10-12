@@ -1,0 +1,9 @@
+Vivado: 2026.1
+Top: tb_q2_bist_e2e_w16
+Word width: 16; physical behavioural cells: 48
+Nominal resistance: LRS=100 ohm; HRS=10000 ohm; threshold=5050 ohm
+Faults: stable stuck-LRS/stuck-HRS; orders 0, 1 and 2; BIST runs for every scenario
+Expected scenario count: 4609
+Primary all-zero/all-one checks: 9218
+Additional alternating/complement checks: 9218
+This is behavioural RTL simulation; no placement/routing or board programming.

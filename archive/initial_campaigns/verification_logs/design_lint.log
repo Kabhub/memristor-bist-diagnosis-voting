@@ -1,0 +1,257 @@
+%Warning-DECLFILENAME: zedboard_oled_status.sv:822:8: Filename 'zedboard_oled_status' does not match MODULE name: 'oled_spi_byte'
+  822 | module oled_spi_byte #(
+      |        ^~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=0.000
+                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:131:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  131 |                     case (position)
+      |                     ^~~~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=0.000
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:131:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  131 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:131:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  131 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:139:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  139 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:139:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  139 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:139:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  139 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:147:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  147 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:147:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  147 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:147:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  147 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:147:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h3' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  147 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:156:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  156 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:156:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  156 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:156:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  156 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:156:21: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h3' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  156 |                     case (position)
+      |                     ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:177:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  177 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:177:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  177 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:177:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  177 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:184:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  184 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:184:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  184 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:184:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  184 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:184:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h3' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  184 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:184:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h4' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  184 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:193:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  193 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:193:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  193 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:193:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  193 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:193:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h3' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  193 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:201:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h0' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  201 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:201:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h1' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  201 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:201:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h2' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  201 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHEXPAND: zedboard_oled_status.sv:201:17: Operator CASE expects 5 bits on the Case Item, but Case Item's CONST '3'h3' generates 3 bits.
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status'
+  201 |                 case (position)
+      |                 ^~~~
+%Warning-WIDTHTRUNC: zedboard_oled_status.sv:313:70: Bit extraction of var[7:0] requires 3 bit index, not 5 bits.
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+  313 |                                     screen_character = corrected_word[5'd16 - position] ? "1" : "0";
+      |                                                                      ^
+                     ... For warning description see https://verilator.org/warn/WIDTHTRUNC?v=0.000
+                     ... Use "/* verilator lint_off WIDTHTRUNC */" and lint_on around source to disable this message.
+%Warning-PROCASSINIT: zedboard_memristor_top.sv:18:55: Procedural assignment to declaration with initial value: 'reset_sync'
+                                                     : ... note: In instance 'zedboard_memristor_top'
+                                                     : ... Location of variable initialization
+   18 |     (* ASYNC_REG = "TRUE" *) logic [1:0] reset_sync = 2'b11;
+      |                                                       ^~~~~
+                      zedboard_memristor_top.sv:66:9: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+   66 |         reset_sync <= {reset_sync[0], BTNU};
+      |         ^~~~~~~~~~
+                      ... For warning description see https://verilator.org/warn/PROCASSINIT?v=0.000
+                      ... Use "/* verilator lint_off PROCASSINIT */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: zedboard_memristor_top.sv:36:18: Signal is not used: 'replica_health_map'
+                                                      : ... note: In instance 'zedboard_memristor_top'
+   36 |     logic [23:0] replica_health_map;
+      |                  ^~~~~~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=0.000
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: zedboard_memristor_top.sv:38:18: Signal is not used: 'standard_tmr_data'
+                                                      : ... note: In instance 'zedboard_memristor_top'
+   38 |     logic [7:0]  standard_tmr_data;
+      |                  ^~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: zedboard_memristor_top.sv:39:18: Signal is not used: 'uncorrectable_map'
+                                                      : ... note: In instance 'zedboard_memristor_top'
+   39 |     logic [7:0]  uncorrectable_map;
+      |                  ^~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: zedboard_memristor_top.sv:49:18: Signal is not used: 'oled_on'
+                                                      : ... note: In instance 'zedboard_memristor_top'
+   49 |     logic        oled_on;
+      |                  ^~~~~~~
+%Warning-PROCASSINIT: zedboard_memristor_top.sv:53:36: Procedural assignment to declaration with initial value: 'oled_por_counter'
+                                                     : ... note: In instance 'zedboard_memristor_top'
+                                                     : ... Location of variable initialization
+   53 |     logic [3:0] oled_por_counter = 4'h0;
+      |                                    ^~~~
+                      zedboard_memristor_top.sv:58:13: ... Location of variable process write
+                                                     : ... Perhaps should initialize instead using a reset in this process
+   58 |             oled_por_counter <= oled_por_counter + 1'b1;
+      |             ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: memristor_bist_8bit.sv:41:17: Signal is not used: 'replica_a'
+                                                   : ... note: In instance 'zedboard_memristor_top.bist_system'
+   41 |     logic [7:0] replica_a;
+      |                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: memristor_bist_8bit.sv:42:17: Signal is not used: 'replica_b'
+                                                   : ... note: In instance 'zedboard_memristor_top.bist_system'
+   42 |     logic [7:0] replica_b;
+      |                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: memristor_bist_8bit.sv:43:17: Signal is not used: 'replica_c'
+                                                   : ... note: In instance 'zedboard_memristor_top.bist_system'
+   43 |     logic [7:0] replica_c;
+      |                 ^~~~~~~~~
+%Warning-UNUSEDSIGNAL: memristor_bist_8bit.sv:44:17: Signal is not used: 'tmr_fault_detected'
+                                                   : ... note: In instance 'zedboard_memristor_top.bist_system'
+   44 |     logic [7:0] tmr_fault_detected;
+      |                 ^~~~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: memristor_bist_8bit.sv:45:17: Signal is not used: 'correctable_map'
+                                                   : ... note: In instance 'zedboard_memristor_top.bist_system'
+   45 |     logic [7:0] correctable_map;
+      |                 ^~~~~~~~~~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:28:34: Procedural assignment to declaration with initial value: 'oled_on'
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+                                                   : ... Location of variable initialization
+   28 |     output logic       oled_on = 1'b0,
+      |                                  ^~~~
+                      zedboard_oled_status.sv:561:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  561 |             oled_on               <= 1'b0;
+      |             ^~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:29:34: Procedural assignment to declaration with initial value: 'OLED_DC'
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+                                                   : ... Location of variable initialization
+   29 |     output logic       OLED_DC = 1'b0,
+      |                                  ^~~~
+                      zedboard_oled_status.sv:562:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  562 |             OLED_DC               <= 1'b0;
+      |             ^~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:30:35: Procedural assignment to declaration with initial value: 'OLED_RES'
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+                                                   : ... Location of variable initialization
+   30 |     output logic       OLED_RES = 1'b0,
+      |                                   ^~~~
+                      zedboard_oled_status.sv:563:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  563 |             OLED_RES              <= 1'b0;
+      |             ^~~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:33:36: Procedural assignment to declaration with initial value: 'OLED_VBAT'
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+                                                   : ... Location of variable initialization
+   33 |     output logic       OLED_VBAT = 1'b1,
+      |                                    ^~~~
+                      zedboard_oled_status.sv:564:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  564 |             OLED_VBAT             <= 1'b1;
+      |             ^~~~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:34:35: Procedural assignment to declaration with initial value: 'OLED_VDD'
+                                                   : ... note: In instance 'zedboard_memristor_top.oled_status'
+                                                   : ... Location of variable initialization
+   34 |     output logic       OLED_VDD = 1'b1
+      |                                   ^~~~
+                      zedboard_oled_status.sv:565:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  565 |             OLED_VDD              <= 1'b1;
+      |             ^~~~~~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:831:31: Procedural assignment to declaration with initial value: 'sclk'
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status.spi_transmitter'
+                                                    : ... Location of variable initialization
+  831 |     output logic       sclk = 1'b0,
+      |                               ^~~~
+                      zedboard_oled_status.sv:846:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  846 |             sclk            <= 1'b0;
+      |             ^~~~
+%Warning-PROCASSINIT: zedboard_oled_status.sv:832:31: Procedural assignment to declaration with initial value: 'sdin'
+                                                    : ... note: In instance 'zedboard_memristor_top.oled_status.spi_transmitter'
+                                                    : ... Location of variable initialization
+  832 |     output logic       sdin = 1'b0
+      |                               ^~~~
+                      zedboard_oled_status.sv:847:13: ... Location of variable process write
+                                                    : ... Perhaps should initialize instead using a reset in this process
+  847 |             sdin            <= 1'b0;
+      |             ^~~~
+- V e r i l a t i o n   R e p o r t:  rev vUNKNOWN-built20260516-4e853d8
+- Verilator: Built from 0.258 MB sources in 8 modules, into 0.809 MB in 3 C++ files needing 0.000 MB
+- Verilator: Walltime 0.075 s (elab=0.007, cvt=0.049, bld=0.000); cpu 0.075 s on 1 threads; allocated 27.039 MB

@@ -1,0 +1,4 @@
+architecture,duration_ps,start_transitions,recursively_logged_objects,status
+unprotected,7985000,6,184,PASS
+standard_tmr,7985000,6,376,PASS
+proposed_bist_guided,7985000,6,376,PASS

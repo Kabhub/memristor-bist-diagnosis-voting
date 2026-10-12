@@ -1,0 +1,6 @@
+scheme,width,data_cells,polarity_bits,destination_bits,spare_use_bits,snapshot_bits,test_cycles,metric_scope
+plain_tmr,16,48,0,0,0,0,0,logical_fields_excluding_control_validity_rejection_counters
+proposed_destructive,16,48,96,0,0,0,5,logical_fields_excluding_control_validity_rejection_counters
+proposed_preserving,16,48,96,0,0,48,8,logical_fields_excluding_control_validity_rejection_counters
+remap_two_spares,16,18,36,80,2,0,21,logical_fields_excluding_control_validity_rejection_counters
+remap_matched_cells,16,48,96,96,32,0,21,logical_fields_excluding_control_validity_rejection_counters

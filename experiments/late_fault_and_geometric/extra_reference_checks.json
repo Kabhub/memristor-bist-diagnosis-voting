@@ -1,0 +1,437 @@
+[
+  [
+    "Use ECP not ECC for Hard Failures in Resistive Memories",
+    [
+      {
+        "title": [
+          "Use ECP, not ECC, for hard failures in resistive memories"
+        ],
+        "DOI": "10.1145/1816038.1815980",
+        "author": [
+          {
+            "given": "Stuart",
+            "family": "Schechter",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Gabriel H.",
+            "family": "Loh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Karin",
+            "family": "Strauss",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Doug",
+            "family": "Burger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "page": "141-152",
+        "publisher": "Association for Computing Machinery (ACM)",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "ACM SIGARCH Computer Architecture News"
+        ]
+      },
+      {
+        "title": [
+          "Use ECP, not ECC, for hard failures in resistive memories"
+        ],
+        "DOI": "10.1145/1815961.1815980",
+        "author": [
+          {
+            "given": "Stuart",
+            "family": "Schechter",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Gabriel H.",
+            "family": "Loh",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Karin",
+            "family": "Strauss",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Doug",
+            "family": "Burger",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Microsoft Research, Redmond, WA, USA"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "page": "141-152",
+        "publisher": "ACM",
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              19
+            ]
+          ]
+        },
+        "container-title": [
+          "Proceedings of the 37th annual international symposium on Computer architecture"
+        ]
+      },
+      {
+        "title": [
+          "Rad-hard Resistive Memories"
+        ],
+        "DOI": "10.1201/9781003339182-7",
+        "author": [
+          {
+            "given": "Cristiano",
+            "family": "Calligaro",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "page": "269-307",
+        "publisher": "River Publishers",
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              9,
+              1
+            ]
+          ]
+        },
+        "container-title": [
+          "Rad-hard Semiconductor Memories"
+        ]
+      }
+    ]
+  ],
+  [
+    "FREE-p Protecting Non-Volatile Memory against both Hard and Soft Errors",
+    [
+      {
+        "title": [
+          "FREE-p: Protecting non-volatile memory against both hard and soft errors"
+        ],
+        "DOI": "10.1109/hpca.2011.5749752",
+        "author": [
+          {
+            "given": "Doe Hyun",
+            "family": "Yoon",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Naveen",
+            "family": "Muralimanohar",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Jichuan",
+            "family": "Chang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Parthasarathy",
+            "family": "Ranganathan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Norman P.",
+            "family": "Jouppi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Mattan",
+            "family": "Erez",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "page": "466-477",
+        "publisher": "IEEE",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              2
+            ]
+          ]
+        },
+        "container-title": [
+          "2011 IEEE 17th International Symposium on High Performance Computer Architecture"
+        ]
+      },
+      {
+        "title": [
+          "Protecting scratchpad memory addresses against soft errors"
+        ],
+        "DOI": "10.1016/j.microrel.2020.113741",
+        "author": [
+          {
+            "given": "Ali",
+            "family": "Mansoor",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Mahdi",
+            "family": "Fazeli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Amir Masood",
+            "family": "Rahmani",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "page": "113741",
+        "publisher": "Elsevier BV",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              8
+            ]
+          ]
+        },
+        "container-title": [
+          "Microelectronics Reliability"
+        ]
+      },
+      {
+        "title": [
+          "Memory Mapped SPM: Protecting Instruction Scratchpad Memory in Embedded Systems against Soft Errors"
+        ],
+        "DOI": "10.1109/edcc.2012.13",
+        "author": [
+          {
+            "given": "H.",
+            "family": "Farbeh",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "M.",
+            "family": "Fazeli",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "F.",
+            "family": "Khosravi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "S. G.",
+            "family": "Miremadi",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "page": "218-226",
+        "publisher": "IEEE",
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              5
+            ]
+          ]
+        },
+        "container-title": [
+          "2012 Ninth European Dependable Computing Conference"
+        ]
+      }
+    ]
+  ]
+]

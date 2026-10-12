@@ -1,0 +1,2 @@
+VALID: corrected SAIF capture and checkpoint power reports completed.
+Use activity_power_summary.csv and saif_capture_validation.csv in this folder.

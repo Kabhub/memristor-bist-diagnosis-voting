@@ -1,0 +1,12 @@
+{
+  "model": "lognormal static resistance multiplied by independent lognormal read noise",
+  "nominal_lrs_ohms": 100.0,
+  "nominal_hrs_ohms": 10000.0,
+  "fixed_threshold_ohms": 5050.0,
+  "read_noise_cv": 0.15,
+  "trials_per_state_or_data_value": 100000,
+  "calibration_samples_per_state": 20000,
+  "guard_policy": "values inside threshold +/- guard fraction are rejected and treated as untrusted",
+  "repeated_read_policy": "median; mitigates temporal read noise, not static D2D variation",
+  "scope": "assumed-model sensitivity only; not measured device characterization"
+}

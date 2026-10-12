@@ -1,0 +1,8 @@
+PASS: No-fault BIST | found=0 LRS=000000 HRS=000000 corrected=ff R=0
+PASS: HRS fault at bit 3 replica B | found=1 LRS=000000 HRS=000800 corrected=ff R=10000
+PASS: LRS fault at bit 6 replica C | found=1 LRS=400000 HRS=000000 corrected=ff R=100
+ALL BIST TESTS PASSED
+- tb_memristor_bist_8bit.sv:138: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 186ns; walltime 0.000 s; speed 2.363 ms/s
+- Verilator: cpu 0.000 s on 1 threads; allocated 6 MB

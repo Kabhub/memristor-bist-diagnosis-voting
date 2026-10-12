@@ -1,0 +1,11 @@
+PASS: No-fault health map | LEDs=11111111
+PASS: No-fault status view | LEDs=10000010
+PASS: HRS fault health map at bit 3 | LEDs=11110111
+PASS: HRS status view | LEDs=01110110
+PASS: LRS fault health map at bit 6 | LEDs=10111111
+PASS: LRS status view | LEDs=01101110
+ALL UPDATED ZEDBOARD TOP TESTS PASSED
+- tb_zedboard_memristor_top.sv:128: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 466ns; walltime 0.000 s; speed 5.796 ms/s
+- Verilator: cpu 0.000 s on 1 threads; allocated 6 MB

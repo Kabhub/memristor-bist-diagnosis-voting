@@ -1,0 +1,5 @@
+Vivado: 2026.1; width=16; LRS=100 ohm; HRS=10000 ohm; threshold=5050 ohm
+18-cell compact and 48-cell matched-spare campaigns: 649 and 4609 scenarios
+Four words per scenario: all-zero, all-one, alternating, complement. Actual BIST runs every scenario.
+Matched 48-cell campaign instantiates the actual proposed RTL alongside the remapper.
+Nominal stable faults only in exhaustive campaign; selected extra boundary/late-fault checks are separate.

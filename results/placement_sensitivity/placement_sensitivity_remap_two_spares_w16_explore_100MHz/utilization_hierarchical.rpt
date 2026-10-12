@@ -1,0 +1,32 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sun Oct 11 18:58:36 2026
+| Host         : DESKTOP-EVDHGI9 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Q2/Q2_Placement_Study/results/placement_study_w16/placement_sensitivity_remap_two_spares_w16_explore_100MHz/utilization_hierarchical.rpt
+| Design       : q2_remap_two_registered_benchmark
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++---------------------------------------+----------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|                Instance               |        Module        | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++---------------------------------------+----------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| q2_remap_two_registered_benchmark     |                (top) |        462 |        462 |       0 |    0 | 300 |      0 |      0 |          0 |
+|   (q2_remap_two_registered_benchmark) |                (top) |          0 |          0 |       0 |    0 | 143 |      0 |      0 |          0 |
+|   dut                                 | q2_shared_spare_core |        462 |        462 |       0 |    0 | 157 |      0 |      0 |          0 |
+|     (dut)                             | q2_shared_spare_core |        444 |        444 |       0 |    0 | 139 |      0 |      0 |          0 |
++---------------------------------------+----------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

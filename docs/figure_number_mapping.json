@@ -1,0 +1,43 @@
+{
+  "main_tables": {
+    "1": "1",
+    "2": "2",
+    "L": "3",
+    "3": "4",
+    "4": "5",
+    "5": "6",
+    "6": "7",
+    "7": "8",
+    "12": "9"
+  },
+  "main_figures": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "5",
+    "9": "6",
+    "11": "7",
+    "12": "8"
+  },
+  "supplement_tables": {
+    "8": "S1",
+    "9": "S2",
+    "10": "S3",
+    "11": "S4",
+    "13": "S5",
+    "14": "S6",
+    "A1": "S7"
+  },
+  "supplement_figures": {
+    "6": "S1",
+    "7": "S2",
+    "8": "S3",
+    "10": "S4"
+  },
+  "abstract_words": 217,
+  "plain_TMR_sweep": "Actual Verilator 5.49, 384/384, no BIST",
+  "author_roles": "Confirmed roles retained by user request",
+  "unperformed": "Prior-two-fault-plus-new sweep; compact/ECP baseline; multiword prototype; transient/read-disturb system campaigns",
+  "publication_pending": "Licence agreement, public repository/release URL, publisher landing-page access for blocked records, target journal"
+}

@@ -1,0 +1,12 @@
+{
+  "plain_tmr_late_summary.csv": "ca8337fc7dab07d235a287e7fd41de2b76b2f026436da8ab97ff51d4357ba572",
+  "run.log": "580aa0babec6fd4936a81869faaef54d26312c007ce5c87255146e785d77c3cf",
+  "plain_tmr_late_scenarios.csv": "a232b66e455f3a6caffe199228d612263495c69e2cc2f1bcce1fd9227bc5a2b9",
+  "review_tmr_baselines.sv": "139adfa456f51890b140b439eae45f67dd4627e5f9521bf8f6215afbd9ff5dc5",
+  "reference_metadata.json": "8c481eba916028f8b723fb28bbcc1358899ca45439723e2dd73fb674f2fe609f",
+  "build.log": "6bddf5954220120edf0a87132745bbd4cd8c5a81187fb71244772d155b6e5cbf",
+  "publication_scalable_memristor_core.sv": "d256d3dce20659650bb2b382c14afaf6ced9c29db505ebdf88e318bc814ba414",
+  "README.md": "9f7996fa6a158d40696091b09edbc94a840089b800024a803c1835b53e21f98b",
+  "plain_tmr_late_PASS.txt": "1ad79d18390ea78056dceb274b1068f2283e847820cdc1bc1118bfb68197705b",
+  "tb_plain_tmr_late_sweep.sv": "04a97e5f299b617a4f2f5dab353920ab23ab272b228778a6251cbb814b96b054"
+}

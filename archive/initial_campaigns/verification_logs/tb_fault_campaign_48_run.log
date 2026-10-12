@@ -1,0 +1,60 @@
+PASS 1: type=LRS replica=0 bit=0
+PASS 2: type=LRS replica=0 bit=1
+PASS 3: type=LRS replica=0 bit=2
+PASS 4: type=LRS replica=0 bit=3
+PASS 5: type=LRS replica=0 bit=4
+PASS 6: type=LRS replica=0 bit=5
+PASS 7: type=LRS replica=0 bit=6
+PASS 8: type=LRS replica=0 bit=7
+PASS 9: type=LRS replica=1 bit=0
+PASS 10: type=LRS replica=1 bit=1
+PASS 11: type=LRS replica=1 bit=2
+PASS 12: type=LRS replica=1 bit=3
+PASS 13: type=LRS replica=1 bit=4
+PASS 14: type=LRS replica=1 bit=5
+PASS 15: type=LRS replica=1 bit=6
+PASS 16: type=LRS replica=1 bit=7
+PASS 17: type=LRS replica=2 bit=0
+PASS 18: type=LRS replica=2 bit=1
+PASS 19: type=LRS replica=2 bit=2
+PASS 20: type=LRS replica=2 bit=3
+PASS 21: type=LRS replica=2 bit=4
+PASS 22: type=LRS replica=2 bit=5
+PASS 23: type=LRS replica=2 bit=6
+PASS 24: type=LRS replica=2 bit=7
+PASS 25: type=HRS replica=0 bit=0
+PASS 26: type=HRS replica=0 bit=1
+PASS 27: type=HRS replica=0 bit=2
+PASS 28: type=HRS replica=0 bit=3
+PASS 29: type=HRS replica=0 bit=4
+PASS 30: type=HRS replica=0 bit=5
+PASS 31: type=HRS replica=0 bit=6
+PASS 32: type=HRS replica=0 bit=7
+PASS 33: type=HRS replica=1 bit=0
+PASS 34: type=HRS replica=1 bit=1
+PASS 35: type=HRS replica=1 bit=2
+PASS 36: type=HRS replica=1 bit=3
+PASS 37: type=HRS replica=1 bit=4
+PASS 38: type=HRS replica=1 bit=5
+PASS 39: type=HRS replica=1 bit=6
+PASS 40: type=HRS replica=1 bit=7
+PASS 41: type=HRS replica=2 bit=0
+PASS 42: type=HRS replica=2 bit=1
+PASS 43: type=HRS replica=2 bit=2
+PASS 44: type=HRS replica=2 bit=3
+PASS 45: type=HRS replica=2 bit=4
+PASS 46: type=HRS replica=2 bit=5
+PASS 47: type=HRS replica=2 bit=6
+PASS 48: type=HRS replica=2 bit=7
+----------------------------------------
+FAULT CAMPAIGN COMPLETE
+Total injected faults : 48
+Detected faults       : 48
+Tolerated faults      : 48
+Detection coverage    : 100%
+Tolerance success     : 100%
+ALL 48 SINGLE STUCK-AT FAULT TESTS PASSED
+- tb_fault_campaign_48.sv:186: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 3us; walltime 0.000 s; speed 6.744 ms/s
+- Verilator: cpu 0.000 s on 1 threads; allocated 6 MB

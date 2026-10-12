@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+ALL DATA-PRESERVING BIST TESTS PASSED
+$finish called at time : 236 ns : File "C:/Q2/q2_review_experiments/tb/tb_review_data_preserving_bist.sv" Line 92
+The current simulation has finished. Please use 'restart' to begin a new simulation.
+$finish called at time : 236 ns : File "C:/Q2/q2_review_experiments/tb/tb_review_data_preserving_bist.sv" Line 92

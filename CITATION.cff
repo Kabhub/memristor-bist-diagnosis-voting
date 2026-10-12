@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this research software and its accompanying paper when available."
+title: "Resistance-aware BIST and diagnosis-guided voting for behavioural memristor memory"
+type: software
+authors:
+  - family-names: Purohit
+    given-names: Joel
+  - family-names: Sahani
+    given-names: Kabir
+  - family-names: Bane
+    given-names: Sameek
+  - family-names: Pandya
+    given-names: Jalpaben
+abstract: "RTL, testbenches, software models and recorded experimental evidence for a resistance-state diagnosis-to-voting interface."

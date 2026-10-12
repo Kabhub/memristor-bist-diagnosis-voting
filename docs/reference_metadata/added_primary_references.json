@@ -1,0 +1,24 @@
+{
+  "21": {
+    "authors": [
+      "Jin-Fu Li",
+      "Jen-Chieh Yeh",
+      "Rei-Fu Huang",
+      "Cheng-Wen Wu"
+    ],
+    "title": "A built-in self-repair design for RAMs with 2-D redundancy",
+    "doi": "10.1109/TVLSI.2005.848824",
+    "primary_source": "https://researchoutput.ncku.edu.tw/en/publications/a-built-in-self-repair-design-for-rams-with-2-d-redundancy/"
+  },
+  "22": {
+    "authors": [
+      "Sachhidh Kannan",
+      "Naghmeh Karimi",
+      "Ramesh Karri",
+      "Ozgur Sinanoglu"
+    ],
+    "title": "Detection, diagnosis, and repair of faults in memristor-based memories",
+    "doi": "10.1109/VTS.2014.6818762",
+    "primary_source": "https://www.csee.umbc.edu/~nkarimi/papers/VTS14.pdf"
+  }
+}

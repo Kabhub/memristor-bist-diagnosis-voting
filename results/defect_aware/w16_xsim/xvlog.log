@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/DEFECT_BASELINE/rtl/publication_scalable_memristor_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module publication_scalable_memristor_core
+INFO: [VRFC 10-311] analyzing module publication_memristor_cell
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/DEFECT_BASELINE/rtl/q2_shared_spare_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module q2_shared_spare_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/DEFECT_BASELINE/tb/tb_q2_remap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module q2_remap_campaign
+INFO: [VRFC 10-311] analyzing module tb_q2_remap_w16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Q2/DEFECT_BASELINE/results/simulation_w16_20261011_162443_1791716084447/project/remap.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

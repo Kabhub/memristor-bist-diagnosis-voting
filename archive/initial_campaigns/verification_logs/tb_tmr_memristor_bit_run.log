@@ -1,0 +1,9 @@
+PASS: Normal write 1 | replicas=111 voted=1 fault=0 R=100/100/100
+PASS: One HRS fault is tolerated | replicas=011 voted=1 fault=1 R=10000/100/100
+PASS: Normal write 0 | replicas=000 voted=0 fault=0 R=10000/10000/10000
+PASS: One LRS fault is tolerated | replicas=010 voted=0 fault=1 R=10000/100/10000
+ALL STANDARD AND DIAGNOSIS-GUIDED TMR TESTS PASSED
+- tb_tmr_memristor_bit.sv:171: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 78ns; walltime 0.000 s; speed 1.160 ms/s
+- Verilator: cpu 0.000 s on 1 threads; allocated 6 MB

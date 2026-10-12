@@ -1,0 +1,5 @@
+ALL OLED CONTROLLER TESTS PASSED
+- tb_zedboard_oled_status.sv:291: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 112us; walltime 0.007 s; speed 16.677 ms/s
+- Verilator: cpu 0.007 s on 1 threads; allocated 6 MB

@@ -1,0 +1,102 @@
+%Warning-DECLFILENAME: publication_scalable_memristor_core.sv:312:8: Filename 'publication_scalable_memristor_core' does not match MODULE name: 'publication_memristor_cell'
+  312 | module publication_memristor_cell #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+                       ... For warning description see https://verilator.org/warn/DECLFILENAME?v=0.000
+                       ... Use "/* verilator lint_off DECLFILENAME */" and lint_on around source to disable this message.
+%Warning-PINCONNECTEMPTY: publication_architecture_wrapper.sv:53:10: Instance pin connected by name with empty reference: 'unprotected_data'
+   53 |         .unprotected_data        (),
+      |          ^~~~~~~~~~~~~~~~
+                          ... For warning description see https://verilator.org/warn/PINCONNECTEMPTY?v=0.000
+                          ... Use "/* verilator lint_off PINCONNECTEMPTY */" and lint_on around source to disable this message.
+%Warning-PINCONNECTEMPTY: publication_architecture_wrapper.sv:54:10: Instance pin connected by name with empty reference: 'standard_tmr_data'
+   54 |         .standard_tmr_data       (),
+      |          ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:35:10: Instance pin connected by name with empty reference: 'busy'
+   35 |         .busy(), .done(done_u), .fault_found(fault_u),
+      |          ^~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:37:10: Instance pin connected by name with empty reference: 'unprotected_data'
+   37 |         .unprotected_data(), .standard_tmr_data(),
+      |          ^~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:37:31: Instance pin connected by name with empty reference: 'standard_tmr_data'
+   37 |         .unprotected_data(), .standard_tmr_data(),
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:39:33: Instance pin connected by name with empty reference: 'replica_health_map'
+   39 |         .hrs_fault_map(hrs_u), .replica_health_map(),
+      |                                 ^~~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:40:10: Instance pin connected by name with empty reference: 'uncorrectable_map'
+   40 |         .uncorrectable_map()
+      |          ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:51:10: Instance pin connected by name with empty reference: 'busy'
+   51 |         .busy(), .done(done_s), .fault_found(fault_s),
+      |          ^~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:53:10: Instance pin connected by name with empty reference: 'unprotected_data'
+   53 |         .unprotected_data(), .standard_tmr_data(),
+      |          ^~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:53:31: Instance pin connected by name with empty reference: 'standard_tmr_data'
+   53 |         .unprotected_data(), .standard_tmr_data(),
+      |                               ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:55:33: Instance pin connected by name with empty reference: 'replica_health_map'
+   55 |         .hrs_fault_map(hrs_s), .replica_health_map(),
+      |                                 ^~~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:56:10: Instance pin connected by name with empty reference: 'uncorrectable_map'
+   56 |         .uncorrectable_map()
+      |          ^~~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:67:10: Instance pin connected by name with empty reference: 'busy'
+   67 |         .busy(), .done(done_p), .fault_found(fault_p),
+      |          ^~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:69:10: Instance pin connected by name with empty reference: 'unprotected_data'
+   69 |         .unprotected_data(), .standard_tmr_data(standard_p),
+      |          ^~~~~~~~~~~~~~~~
+%Warning-PINCONNECTEMPTY: tb_publication_architecture_comparison.sv:71:33: Instance pin connected by name with empty reference: 'replica_health_map'
+   71 |         .hrs_fault_map(hrs_p), .replica_health_map(),
+      |                                 ^~~~~~~~~~~~~~~~~~
+%Warning-MULTITOP: tb_publication_architecture_comparison.sv:3:8: Multiple top level modules
+                                                                : ... Suggest see manual; fix the duplicates, or use --top-module to select top.
+                   ... For warning description see https://verilator.org/warn/MULTITOP?v=0.000
+                   ... Use "/* verilator lint_off MULTITOP */" and lint_on around source to disable this message.
+                                                                : ... Top module 'publication_architecture_wrapper'
+    8 | module publication_architecture_wrapper #(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                                                : ... Top module 'tb_publication_architecture_comparison'
+    3 | module tb_publication_architecture_comparison;
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%Warning-PROCASSINIT: tb_publication_architecture_comparison.sv:7:17: Procedural assignment to declaration with initial value: 'clk'
+                                                                    : ... note: In instance 'tb_publication_architecture_comparison'
+                                                                    : ... Location of variable initialization
+    7 |     logic clk = 1'b0;
+      |                 ^~~~
+                      tb_publication_architecture_comparison.sv:25:15: ... Location of variable process write
+                                                                     : ... Perhaps should initialize instead using a reset in this process
+   25 |     always #5 clk = ~clk;
+      |               ^~~
+                      ... For warning description see https://verilator.org/warn/PROCASSINIT?v=0.000
+                      ... Use "/* verilator lint_off PROCASSINIT */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:16:11: Signal is not used: 'fault_u'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   16 |     logic fault_u, fault_s, fault_p;
+      |           ^~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=0.000
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:16:20: Signal is not used: 'fault_s'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   16 |     logic fault_u, fault_s, fault_p;
+      |                    ^~~~~~~
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:16:29: Signal is not used: 'fault_p'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   16 |     logic fault_u, fault_s, fault_p;
+      |                             ^~~~~~~
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:17:11: Signal is not used: 'valid_u'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   17 |     logic valid_u, valid_s, valid_p;
+      |           ^~~~~~~
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:17:20: Signal is not used: 'valid_s'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   17 |     logic valid_u, valid_s, valid_p;
+      |                    ^~~~~~~
+%Warning-UNUSEDSIGNAL: tb_publication_architecture_comparison.sv:17:29: Signal is not used: 'valid_p'
+                                                                      : ... note: In instance 'tb_publication_architecture_comparison'
+   17 |     logic valid_u, valid_s, valid_p;
+      |                             ^~~~~~~
+- V e r i l a t i o n   R e p o r t:  rev vUNKNOWN-built20260516-4e853d8
+- Verilator: Built from 0.120 MB sources in 5 modules, into 1.049 MB in 6 C++ files needing 0.000 MB
+- Verilator: Walltime 0.116 s (elab=0.012, cvt=0.084, bld=0.000); cpu 0.116 s on 1 threads; allocated 28.672 MB

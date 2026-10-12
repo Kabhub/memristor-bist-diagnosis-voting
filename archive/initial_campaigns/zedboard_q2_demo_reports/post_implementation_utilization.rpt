@@ -1,0 +1,36 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sat Oct  3 00:04:54 2026
+| Host         : DESKTOP-EVDHGI9 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Users/Kabir/AppData/Roaming/Xilinx/Vivado/q2_hw_demo_reports/post_implementation_utilization.rpt
+| Design       : zedboard_memristor_q2_demo_top
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------------+---------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|              Instance              |           Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++------------------------------------+---------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| zedboard_memristor_q2_demo_top     |                     (top) |        596 |        596 |       0 |    0 | 238 |      0 |      0 |          0 |
+|   (zedboard_memristor_q2_demo_top) |                     (top) |          2 |          2 |       0 |    0 |  38 |      0 |      0 |          0 |
+|   bist_system                      |       memristor_bist_8bit |        199 |        199 |       0 |    0 |  77 |      0 |      0 |          0 |
+|     (bist_system)                  |       memristor_bist_8bit |         46 |         46 |       0 |    0 |  53 |      0 |      0 |          0 |
+|     memory                         | tmr_memristor_memory_8bit |        154 |        154 |       0 |    0 |  24 |      0 |      0 |          0 |
+|   oled_status                      |      zedboard_oled_status |        397 |        397 |       0 |    0 | 123 |      0 |      0 |          0 |
+|     (oled_status)                  |      zedboard_oled_status |        319 |        319 |       0 |    0 |  77 |      0 |      0 |          0 |
+|     spi_transmitter                |             oled_spi_byte |         79 |         79 |       0 |    0 |  46 |      0 |      0 |          0 |
++------------------------------------+---------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

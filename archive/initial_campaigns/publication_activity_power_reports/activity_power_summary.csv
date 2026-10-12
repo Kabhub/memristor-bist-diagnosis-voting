@@ -1,0 +1,4 @@
+architecture,width,operational_cycles,write_cycles,bist_runs,vectorless_total_power_w,vectorless_dynamic_power_w,vectorless_confidence,saif_total_power_w,saif_dynamic_power_w,saif_device_static_power_w,saif_confidence,saif_design_nets_matched
+unprotected,8,768,576,3,0.103,0.001,Medium,0.103,0.001,0.103,High,53%   (88/166)
+standard_tmr,8,768,576,3,0.104,0.002,Medium,0.104,0.001,0.103,High,49%   (165/336)
+proposed_bist_guided,8,768,576,3,0.104,0.002,Medium,0.104,0.001,0.103,High,54%   (196/365)

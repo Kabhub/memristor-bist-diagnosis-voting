@@ -1,0 +1,44 @@
+Q2 REVIEW EXPERIMENTS - VIVADO TCL COMMANDS
+===========================================
+
+IMPORTANT: because your folder name contains a space, use braces and forward
+slashes. Do not type an unquoted path after cd.
+
+1) Navigate to the extracted project (edit the path only if needed):
+
+cd {C:/Users/Kabir/OneDrive/Desktop/q2 pubes/be_memristor_fpga_q2_publication}
+
+2) Run the two functional testbenches first:
+
+source {q2_review_experiments/tcl/run_review_functional_sim.tcl}
+
+Expected console messages:
+  ALL REVIEW BASELINE TESTS PASSED
+  ALL DATA-PRESERVING BIST TESTS PASSED
+  REVIEW FUNCTIONAL SIMULATION COMPLETE
+
+3) Run the recommended resumable implementation campaign:
+
+source {q2_review_experiments/tcl/run_vivado_quick.tcl}
+
+This is 55 post-route implementations: five architectures, 8/16/32-bit
+resource scaling, and 32-bit timing sweeps across documented implementation
+strategies and 100/150/200 MHz constraints. Runtime depends strongly on the PC.
+Closing the project inside the script is normal; it releases each in-memory
+run before starting the next one. COMPLETE.txt markers prevent completed runs
+from being repeated after a restart.
+
+4) Optional, only after the quick campaign is complete:
+
+source {q2_review_experiments/tcl/run_vivado_full.tcl}
+
+The full profile is substantially longer. Do not run it unless the quick
+results show that more implementation-strategy evidence is needed.
+
+5) Exit Vivado, open Command Prompt in q2_review_experiments, and run:
+
+4_SUMMARIZE_VIVADO_QUICK.bat
+5_PACKAGE_RESULTS.bat
+
+Send back q2_review_results.zip.
+

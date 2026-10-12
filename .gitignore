@@ -1,0 +1,18 @@
+# Generated simulation / implementation products
+__pycache__/
+*.pyc
+.Xil/
+obj_dir/
+xsim.dir/
+*.jou
+*.log.tmp
+*.wdb
+*.vcd
+*.vvp
+*.o
+*.a
+*.gch
+*.exe
+# Recorded result reports/CSVs/logs remain tracked.
+
+figures/regenerated/

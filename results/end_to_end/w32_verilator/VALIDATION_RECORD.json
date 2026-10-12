@@ -1,0 +1,35 @@
+{
+  "simulator": "Verilator 5.49 (Linux); actual RTL execution",
+  "vivado_execution": "Not available in this environment; supplied driver checked against AMD 2026.1 docs and Tcl command stubs",
+  "checks": [
+    "w16: 4609 scenario rows",
+    "w16: all unique fault configurations; exact maps, polarity, health and latency verified",
+    "w16: completed summary",
+    "w16: aggregate counts and protocol checks match",
+    "w32: 18433 scenario rows",
+    "w32: all unique fault configurations; exact maps, polarity, health and latency verified",
+    "w32: completed summary",
+    "w32: aggregate counts and protocol checks match",
+    "Publication core preserved byte-for-byte",
+    "Tcl completion gate: pass",
+    "Tcl latest-success pointer: pass",
+    "Tcl source file paths with spaces stay single arguments",
+    "Tcl completion gate: missing_pass",
+    "Tcl latest-success pointer: missing_pass",
+    "Tcl completion gate: bad_marker",
+    "Tcl latest-success pointer: bad_marker",
+    "Tcl completion gate: short_csv",
+    "Tcl latest-success pointer: short_csv",
+    "Tcl completion gate: bad_summary",
+    "Tcl latest-success pointer: bad_summary",
+    "Tcl completion gate: launch_failure",
+    "Tcl latest-success pointer: launch_failure"
+  ],
+  "passed": 22,
+  "source_sha256": {
+    "rtl/publication_scalable_memristor_core.sv": "d256d3dce20659650bb2b382c14afaf6ced9c29db505ebdf88e318bc814ba414",
+    "tb/tb_q2_bist_e2e.sv": "49de12246fbd9b68bd598f97e71382e08fa67d406682b49a006ba3900d7acee9",
+    "run_e2e.tcl": "b6da6049d8201203860b163597de5610c69cff51afa5c820042ba83380ccac6a",
+    "RUN_16_BIT.bat": "ae6a9c666247bf45ba6e92230c4e24b164f4ed45d2028a19ae3e962c83517a61"
+  }
+}

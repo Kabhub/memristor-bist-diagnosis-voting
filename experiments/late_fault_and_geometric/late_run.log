@@ -1,0 +1,8 @@
+LATE-FAULT SWEEP PASSED remap_two_spares: 144 checks, 80 accepted correct, 64 silent wrong, 144 retest correct
+LATE-FAULT SWEEP PASSED proposed: 384 checks, 384 accepted correct, 0 silent wrong, 384 retest correct
+LATE-FAULT SWEEP PASSED remap_matched_cells: 384 checks, 320 accepted correct, 64 silent wrong, 384 retest correct
+ALL LATE-FAULT SWEEPS PASSED
+- output/review2_experiments/tb_late_fault_sweep.sv:83: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 204us; walltime 0.135 s; speed 1.512 ms/s
+- Verilator: cpu 0.135 s on 1 threads; allocated 7 MB

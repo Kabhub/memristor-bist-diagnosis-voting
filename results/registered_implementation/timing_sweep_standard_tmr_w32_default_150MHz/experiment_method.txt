@@ -1,0 +1,10 @@
+Method: registered benchmark synthesized OOC; no package I/O buffers
+Clock: instantiated BUFG located at BUFGCTRL_X0Y0; internal clock tree routed
+Physical optimization: ExploreWithHoldFix before route; one post-route hold_fix/reroute if hold slack is negative
+Timing scope: same-clock launch-register/DUT/capture-register paths; external bank ports excluded explicitly
+All DUT paths, including synchronous reset from the launch bank, remain timed
+Core area: DUT hierarchy only; total/overhead benchmark area reported separately
+Harness latency: one input bank stage and one output bank stage; original core/BIST latency unchanged
+Clock period ns: 6.666666666666667
+PASS means implementation and metric extraction completed; timing_met separately checks both setup and hold
+Power: whole-benchmark vectorless estimate including register banks and BUFG; not isolated core or board power

@@ -1,0 +1,2 @@
+scheme,width,cells,checks,accepted_correct,silent_wrong,rejected,retest_correct,status
+remap_matched_cells,16,48,384,320,64,0,384,PASS

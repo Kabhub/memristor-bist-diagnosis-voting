@@ -1,0 +1,18 @@
+Resistance-variation sensitivity campaign
+Python: 3.12.14
+NumPy: 2.3.5
+Matplotlib: 3.10.8
+Seed: 20261002
+Monte Carlo trials per state/replica-combination: 200000
+Nominal R_ON: 100.0 ohms
+Nominal R_OFF: 10000.0 ohms
+RTL threshold: 5050.0 ohms
+Distribution: lognormal, parameterized to retain the nominal arithmetic mean
+Profiles (CV_LRS, CV_HRS):
+  deterministic: 0.0000, 0.0000
+  low_variation: 0.0200, 0.1500
+  moderate_variation: 0.1000, 0.2500
+  stress_variation: 0.2000, 0.4000
+Threshold-search profile: CV_LRS=0.20, CV_HRS=0.40
+Equal-prior model-optimal threshold in that profile: 464.852615 ohms
+Claim boundary: assumed-model sensitivity analysis only; no physical device was measured.

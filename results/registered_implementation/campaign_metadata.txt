@@ -1,0 +1,13 @@
+Vivado version: 2026.1
+Target part: xc7z020clg484-1
+Profile: quick
+Revision: registered benchmark v7; older experiment results/markers are not reused
+Implementation mode: out_of_context registered shells; no board package I/O buffers
+Clock: physical BUFG at BUFGCTRL_X0Y0; all DUT/bank registers share this routed clock
+Hold optimization: ExploreWithHoldFix pre-route; one conditional post-route hold_fix/reroute
+Timing scope: internal register-to-register paths; excluded outer bank I/O paths are not a board interface
+Core area excludes register banks/BUFG; whole-benchmark totals and overhead are reported separately
+Harness adds one input and one output stage; core BIST cycles remain unchanged
+Timing variation method: documented implementation directive combinations; not random seeds
+Power method: whole-benchmark post-route vectorless estimate including banks/BUFG; not measured board/core-only power
+Highest timing-clean constraint is separate from the margin-derived indicator

@@ -1,0 +1,82 @@
+End-to-end RTL campaign: WIDTH=32, CELLS=96, scenarios=18433
+E2E progress: 250 / 18433 scenarios
+E2E progress: 500 / 18433 scenarios
+E2E progress: 750 / 18433 scenarios
+E2E progress: 1000 / 18433 scenarios
+E2E progress: 1250 / 18433 scenarios
+E2E progress: 1500 / 18433 scenarios
+E2E progress: 1750 / 18433 scenarios
+E2E progress: 2000 / 18433 scenarios
+E2E progress: 2250 / 18433 scenarios
+E2E progress: 2500 / 18433 scenarios
+E2E progress: 2750 / 18433 scenarios
+E2E progress: 3000 / 18433 scenarios
+E2E progress: 3250 / 18433 scenarios
+E2E progress: 3500 / 18433 scenarios
+E2E progress: 3750 / 18433 scenarios
+E2E progress: 4000 / 18433 scenarios
+E2E progress: 4250 / 18433 scenarios
+E2E progress: 4500 / 18433 scenarios
+E2E progress: 4750 / 18433 scenarios
+E2E progress: 5000 / 18433 scenarios
+E2E progress: 5250 / 18433 scenarios
+E2E progress: 5500 / 18433 scenarios
+E2E progress: 5750 / 18433 scenarios
+E2E progress: 6000 / 18433 scenarios
+E2E progress: 6250 / 18433 scenarios
+E2E progress: 6500 / 18433 scenarios
+E2E progress: 6750 / 18433 scenarios
+E2E progress: 7000 / 18433 scenarios
+E2E progress: 7250 / 18433 scenarios
+E2E progress: 7500 / 18433 scenarios
+E2E progress: 7750 / 18433 scenarios
+E2E progress: 8000 / 18433 scenarios
+E2E progress: 8250 / 18433 scenarios
+E2E progress: 8500 / 18433 scenarios
+E2E progress: 8750 / 18433 scenarios
+E2E progress: 9000 / 18433 scenarios
+E2E progress: 9250 / 18433 scenarios
+E2E progress: 9500 / 18433 scenarios
+E2E progress: 9750 / 18433 scenarios
+E2E progress: 10000 / 18433 scenarios
+E2E progress: 10250 / 18433 scenarios
+E2E progress: 10500 / 18433 scenarios
+E2E progress: 10750 / 18433 scenarios
+E2E progress: 11000 / 18433 scenarios
+E2E progress: 11250 / 18433 scenarios
+E2E progress: 11500 / 18433 scenarios
+E2E progress: 11750 / 18433 scenarios
+E2E progress: 12000 / 18433 scenarios
+E2E progress: 12250 / 18433 scenarios
+E2E progress: 12500 / 18433 scenarios
+E2E progress: 12750 / 18433 scenarios
+E2E progress: 13000 / 18433 scenarios
+E2E progress: 13250 / 18433 scenarios
+E2E progress: 13500 / 18433 scenarios
+E2E progress: 13750 / 18433 scenarios
+E2E progress: 14000 / 18433 scenarios
+E2E progress: 14250 / 18433 scenarios
+E2E progress: 14500 / 18433 scenarios
+E2E progress: 14750 / 18433 scenarios
+E2E progress: 15000 / 18433 scenarios
+E2E progress: 15250 / 18433 scenarios
+E2E progress: 15500 / 18433 scenarios
+E2E progress: 15750 / 18433 scenarios
+E2E progress: 16000 / 18433 scenarios
+E2E progress: 16250 / 18433 scenarios
+E2E progress: 16500 / 18433 scenarios
+E2E progress: 16750 / 18433 scenarios
+E2E progress: 17000 / 18433 scenarios
+E2E progress: 17250 / 18433 scenarios
+E2E progress: 17500 / 18433 scenarios
+E2E progress: 17750 / 18433 scenarios
+E2E progress: 18000 / 18433 scenarios
+E2E progress: 18250 / 18433 scenarios
+ALL 18433 END-TO-END BIST SCENARIOS PASSED
+Primary proposed checks: 36866/36866; standard TMR failures: 192
+Additional alternating-pattern checks: 36866/36866
+Triple-fault rejection and fault-map clearing checks passed.
+- ../../../output/q2_e2e_campaign/tb/tb_q2_bist_e2e.sv:244: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 3ms; walltime 1.508 s; speed 1.835 ms/s
+- Verilator: cpu 1.507 s on 1 threads; allocated 7 MB

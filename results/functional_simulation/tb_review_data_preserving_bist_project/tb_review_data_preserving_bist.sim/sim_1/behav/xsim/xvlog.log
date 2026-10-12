@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/publication_scalable_memristor_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module publication_scalable_memristor_core
+INFO: [VRFC 10-311] analyzing module publication_memristor_cell
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/q2_review_experiments/rtl/review_data_preserving_bist_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module review_data_preserving_bist_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/q2_review_experiments/tb/tb_review_data_preserving_bist.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_review_data_preserving_bist
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Q2/q2_review_experiments/review_results/simulation/tb_review_data_preserving_bist_project/tb_review_data_preserving_bist.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

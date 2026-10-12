@@ -1,0 +1,9 @@
+Vivado: 2026.1; part=xc7z020clg484-1; WIDTH=16; clock=100 MHz; place Default/Explore/ExtraNetDelay_high, route Default
+Three designs only: proposed_destructive (48 cells), remap_two_spares (18 cells), remap_matched_cells (48 cells)
+Both baselines include actual BIST plus serial allocation: diagnosis=5 cycles, allocation=16, total=21
+All test controllers are destructive. Normal operation: one rising-edge write and combinational read.
+Core LUT/FF area excludes measurement register banks and BUFG; total and overhead reported separately.
+Internal registered OOC timing only; three documented placement configurations; not independent random seeds or verified maximum frequency.
+Power is a whole-benchmark vectorless estimate, including banks and BUFG, not device/board power.
+PASS means flow/metrics completed. timing_met separately requires nonnegative setup and hold slack.
+Remapper is a research cell-level shared-spare baseline, not a reproduction of a row/column BISR paper.

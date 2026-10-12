@@ -1,0 +1,631 @@
+{
+  "10.1109/T-C.1973.223707": {
+    "title": [
+      "Switch Complexity in Systems with Hybrid Redundancy"
+    ],
+    "author": [
+      {
+        "given": "D.P.",
+        "family": "Siewiorek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "E.J.",
+        "family": "McCluskey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "page": "276-282",
+    "volume": "C-22",
+    "issue": "3",
+    "container-title": [
+      "IEEE Transactions on Computers"
+    ],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "DOI": "10.1109/t-c.1973.223707",
+    "URL": "https://doi.org/10.1109/t-c.1973.223707",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/12/35074/01672300.pdf?arnumber=1672300",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/TVLSI.2005.848824": {
+    "title": [
+      "A built-in self-repair design for RAMs with 2-D redundancy"
+    ],
+    "author": [
+      {
+        "family": "Jin-Fu Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.-C.",
+        "family": "Yeh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Rei-Fu Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Cheng-Wen Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "742-745",
+    "volume": "13",
+    "issue": "6",
+    "container-title": [
+      "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+    ],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "DOI": "10.1109/tvlsi.2005.848824",
+    "URL": "https://doi.org/10.1109/tvlsi.2005.848824",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/92/31398/01458790.pdf?arnumber=1458790",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/VTS.2014.6818762": {
+    "title": [
+      "Detection, diagnosis, and repair of faults in memristor-based memories"
+    ],
+    "author": [
+      {
+        "given": "Sachhidh",
+        "family": "Kannan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naghmeh",
+        "family": "Karimi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ramesh",
+        "family": "Karri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ozgur",
+        "family": "Sinanoglu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "1-6",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "2014 IEEE 32nd VLSI Test Symposium (VTS)"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/vts.2014.6818762",
+    "URL": "https://doi.org/10.1109/vts.2014.6818762",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6811042/6818727/06818762.pdf?arnumber=6818762",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1145/1815961.1815980": {
+    "title": [
+      "Use ECP, not ECC, for hard failures in resistive memories"
+    ],
+    "author": [
+      {
+        "given": "Stuart",
+        "family": "Schechter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, Redmond, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Gabriel H.",
+        "family": "Loh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Georgia Institute of Technology, Atlanta, GA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Karin",
+        "family": "Strauss",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, Redmond, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Doug",
+        "family": "Burger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research, Redmond, WA, USA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "page": "141-152",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "Proceedings of the 37th annual international symposium on Computer architecture"
+    ],
+    "publisher": "ACM",
+    "DOI": "10.1145/1815961.1815980",
+    "URL": "https://doi.org/10.1145/1815961.1815980",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/1815961.1815980",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/1815961.1815980",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/MICRO.2010.46": {
+    "title": [
+      "SAFER: Stuck-At-Fault Error Recovery for Memories"
+    ],
+    "author": [
+      {
+        "given": "Nak Hee",
+        "family": "Seong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong Hyuk",
+        "family": "Woo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vijayalakshmi",
+        "family": "Srinivasan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jude A.",
+        "family": "Rivers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hsien-Hsin S.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "115-124",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/micro.2010.46",
+    "URL": "https://doi.org/10.1109/micro.2010.46",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/5692847/5695520/05695530.pdf?arnumber=5695530",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1145/2540708.2540745": {
+    "title": [
+      "Aegis"
+    ],
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Fan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Song",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wayne State University, Detroit, MI"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiwu",
+        "family": "Shu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Youhui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weimin",
+        "family": "Zhen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "433-444",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture"
+    ],
+    "publisher": "ACM",
+    "DOI": "10.1145/2540708.2540745",
+    "URL": "https://doi.org/10.1145/2540708.2540745",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/2540708.2540745",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/2540708.2540745",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/HPCA.2011.5749752": {
+    "title": [
+      "FREE-p: Protecting non-volatile memory against both hard and soft errors"
+    ],
+    "author": [
+      {
+        "given": "Doe Hyun",
+        "family": "Yoon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naveen",
+        "family": "Muralimanohar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jichuan",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Parthasarathy",
+        "family": "Ranganathan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Norman P.",
+        "family": "Jouppi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mattan",
+        "family": "Erez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "466-477",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "2011 IEEE 17th International Symposium on High Performance Computer Architecture"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/hpca.2011.5749752",
+    "URL": "https://doi.org/10.1109/hpca.2011.5749752",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/5743111/5749710/05749752.pdf?arnumber=5749752",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/ITCAsia55616.2022.00012": {
+    "title": [
+      "Fault Modeling and Testing of RRAM-based Computing-In Memories"
+    ],
+    "author": [
+      {
+        "given": "Yu -Cheng",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Central University,Department of Electrical Engineering,Taoyuan,Taiwan,320"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin-Fu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Central University,Department of Electrical Engineering,Taoyuan,Taiwan,320"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "page": "7-12",
+    "volume": null,
+    "issue": null,
+    "container-title": [
+      "2022 IEEE International Test Conference in Asia (ITC-Asia)"
+    ],
+    "publisher": "IEEE",
+    "DOI": "10.1109/itcasia55616.2022.00012",
+    "URL": "https://doi.org/10.1109/itcasia55616.2022.00012",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9946294/9946242/09946337.pdf?arnumber=9946337",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+}

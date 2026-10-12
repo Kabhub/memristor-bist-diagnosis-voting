@@ -1,0 +1,23 @@
+{
+  "source": "S. Kvatinsky, M. Ramadan, E. G. Friedman, and A. Kolodny, VTEAM: A General Model for Voltage-Controlled Memristors, IEEE TCAS-II, 2015",
+  "doi": "10.1109/TCSII.2015.2433536",
+  "parameter_set": "Table I Pt-Hf-Ti memristor fit",
+  "parameters": {
+    "alpha_off": 1.0,
+    "alpha_on": 3.0,
+    "v_off": 0.5,
+    "v_on": -0.53,
+    "r_off": 2500.0,
+    "r_on": 100.0,
+    "k_off": 4.03e-08,
+    "k_on": -80.0,
+    "w_off": 1e-08,
+    "w_on": 0.0
+  },
+  "i_v_relation": "linear resistance-state interpolation",
+  "window": "ideal hard state bounds",
+  "classification_threshold": "device-specific midpoint of fitted RON and ROFF",
+  "nominal_agreement": 1.0,
+  "scope": "logical endpoint validation and stated fault sensitivity; not new measured-device fitting",
+  "additional_fault_rows": 26
+}

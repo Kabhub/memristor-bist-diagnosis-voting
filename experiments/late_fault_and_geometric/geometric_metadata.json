@@ -1,0 +1,17 @@
+{
+  "seed": 20261010,
+  "trials_per_stored_value": 100000,
+  "stored_values": [
+    0,
+    1
+  ],
+  "thresholds": {
+    "arithmetic": 5050,
+    "geometric": 1000,
+    "calibrated": "Same held-out calibration rule, independent of evaluation"
+  },
+  "pairing": "Every strategy uses the same resistance/read-noise stream for each profile and stored value; arithmetic reproduces original fixed-r1 counts. Original unpaired calibrated rows are retained separately.",
+  "phase_model": "Independent resistance draws across WRITE_ZERO, WRITE_ONE and operation, held fixed within read burst.",
+  "policy": "All usable replicas must agree; same-bit double fault in A+B.",
+  "source_sha256": "84916f8305ae2a6031ad2ea55a39915fea89ad3973656b3d09454e2e32e315bb"
+}

@@ -1,0 +1,1438 @@
+{
+  "1": {
+    "doi": "10.1109/TCT.1971.1083337",
+    "title": [
+      "Memristor-The missing circuit element"
+    ],
+    "authors": [
+      {
+        "given": "L.",
+        "family": "Chua",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Circuit Theory"
+    ],
+    "volume": "18",
+    "issue": "5",
+    "page": "507-519",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          1971
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tct.1971.1083337"
+  },
+  "2": {
+    "doi": "10.1109/PROC.1976.10092",
+    "title": [
+      "Memristive devices and systems"
+    ],
+    "authors": [
+      {
+        "given": "L.O.",
+        "family": "Chua",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Sung Mo Kang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Proceedings of the IEEE"
+    ],
+    "volume": "64",
+    "issue": "2",
+    "page": "209-223",
+    "published": {
+      "date-parts": [
+        [
+          1976
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+  },
+  "3": {
+    "doi": "10.1038/nature06932",
+    "title": [
+      "The missing memristor found"
+    ],
+    "authors": [
+      {
+        "given": "Dmitri B.",
+        "family": "Strukov",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gregory S.",
+        "family": "Snider",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Duncan R.",
+        "family": "Stewart",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "R. Stanley",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Nature"
+    ],
+    "volume": "453",
+    "issue": "7191",
+    "page": "80-83",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          5,
+          1
+        ]
+      ]
+    },
+    "publisher": "Springer Science and Business Media LLC",
+    "url": "https://doi.org/10.1038/nature06932"
+  },
+  "4": {
+    "doi": "10.1109/TCSI.2012.2215714",
+    "title": [
+      "TEAM: ThrEshold Adaptive Memristor Model"
+    ],
+    "authors": [
+      {
+        "given": "Shahar",
+        "family": "Kvatinsky",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eby G.",
+        "family": "Friedman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Avinoam",
+        "family": "Kolodny",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Uri C.",
+        "family": "Weiser",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Circuits and Systems I: Regular Papers"
+    ],
+    "volume": "60",
+    "issue": "1",
+    "page": "211-221",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tcsi.2012.2215714"
+  },
+  "5": {
+    "doi": "10.1109/TCSII.2015.2433536",
+    "title": [
+      "VTEAM: A General Model for Voltage-Controlled Memristors"
+    ],
+    "authors": [
+      {
+        "given": "Shahar",
+        "family": "Kvatinsky",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Misbah",
+        "family": "Ramadan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eby G.",
+        "family": "Friedman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Avinoam",
+        "family": "Kolodny",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Circuits and Systems II: Express Briefs"
+    ],
+    "volume": "62",
+    "issue": "8",
+    "page": "786-790",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          8
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tcsii.2015.2433536"
+  },
+  "6": {
+    "doi": "10.1109/TCAD.2013.2252057",
+    "title": [
+      "Generalized Memristive Device SPICE Model and its Application in Circuit Design"
+    ],
+    "authors": [
+      {
+        "given": "Chris",
+        "family": "Yakopcic",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tarek M.",
+        "family": "Taha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guru",
+        "family": "Subramanyam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robinson E.",
+        "family": "Pino",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+    ],
+    "volume": "32",
+    "issue": "8",
+    "page": "1201-1214",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          8
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tcad.2013.2252057"
+  },
+  "7": {
+    "doi": "10.3390/mi12111344",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "8": {
+    "doi": "10.1109/NANOARCH.2011.5941476",
+    "title": [
+      "mrFPGA: A novel FPGA architecture with memristor-based reconfiguration"
+    ],
+    "authors": [
+      {
+        "given": "Jason",
+        "family": "Cong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Bingjun Xiao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "2011 IEEE/ACM International Symposium on Nanoscale Architectures"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-8",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          6
+        ]
+      ]
+    },
+    "publisher": "IEEE",
+    "url": "https://doi.org/10.1109/nanoarch.2011.5941476"
+  },
+  "9": {
+    "doi": "10.1109/ISCAS.2010.5537010",
+    "title": [
+      "FPGA based on integration of memristors and CMOS devices"
+    ],
+    "authors": [
+      {
+        "given": "Wei",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tom T.",
+        "family": "Jing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Butcher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Proceedings of 2010 IEEE International Symposium on Circuits and Systems"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1963-1966",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          5
+        ]
+      ]
+    },
+    "publisher": "IEEE",
+    "url": "https://doi.org/10.1109/iscas.2010.5537010"
+  },
+  "10": {
+    "doi": "10.1109/TC.2014.12",
+    "title": [
+      "RRAM Defect Modeling and Failure Analysis Based on March Test and a Novel Squeeze-Search Scheme"
+    ],
+    "authors": [
+      {
+        "given": "Ching-Yi",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, National Tsing Hua University, Hsinchu 300, Taiwan 300"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hsiu-Chuan",
+        "family": "Shih",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, National Tsing Hua University, Hsinchu 300, Taiwan 300"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cheng-Wen",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering, National Tsing Hua University, Hsinchu 300, Taiwan 300"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chih-He",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electronics and Optoelectronics Research Laboratories, Industrial Technology Research Institute, Hsinchu 310, Taiwan 310"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pi-Feng",
+        "family": "Chiu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electronics and Optoelectronics Research Laboratories, Industrial Technology Research Institute, Hsinchu 310, Taiwan 310"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shyh-Shyuan",
+        "family": "Sheu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electronics and Optoelectronics Research Laboratories, Industrial Technology Research Institute, Hsinchu 310, Taiwan 310"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frederick T.",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electronics and Optoelectronics Research Laboratories, Industrial Technology Research Institute, Hsinchu 310, Taiwan 310"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Computers"
+    ],
+    "volume": "64",
+    "issue": "1",
+    "page": "180-190",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          1,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tc.2014.12"
+  },
+  "11": {
+    "doi": "10.1109/TCSI.2021.3098639",
+    "title": [
+      "Fault Modeling and Efficient Testing of Memristor-Based Memory"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2329-502X",
+        "authenticated-orcid": false,
+        "given": "Peng",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9924-0685",
+        "authenticated-orcid": false,
+        "given": "Zhiqiang",
+        "family": "You",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6470-9794",
+        "authenticated-orcid": false,
+        "given": "Jigang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7123-7425",
+        "authenticated-orcid": false,
+        "given": "Bosheng",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0904-6681",
+        "authenticated-orcid": false,
+        "given": "Yinhe",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4475-6435",
+        "authenticated-orcid": false,
+        "given": "Krishnendu",
+        "family": "Chakrabarty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Circuits and Systems I: Regular Papers"
+    ],
+    "volume": "68",
+    "issue": "11",
+    "page": "4444-4455",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          11
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tcsi.2021.3098639"
+  },
+  "12": {
+    "doi": "10.1145/3510851",
+    "title": [
+      "Defects, Fault Modeling, and Test Development Framework for RRAMs"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9782-393X",
+        "authenticated-orcid": false,
+        "given": "Moritz",
+        "family": "Fieback",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guilherme Cardoso",
+        "family": "Medeiros",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4439-7436",
+        "authenticated-orcid": false,
+        "given": "Lizhou",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hassen",
+        "family": "Aziza",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Aix-Marseille University-IM2NP laboratory, Marseille, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rajendra",
+        "family": "Bishnoi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mottaqiallah",
+        "family": "Taouil",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8961-0387",
+        "authenticated-orcid": false,
+        "given": "Said",
+        "family": "Hamdioui",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Delft University of Technology, Mekelweg, Delft, The Netherlands"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "ACM Journal on Emerging Technologies in Computing Systems"
+    ],
+    "volume": "18",
+    "issue": "3",
+    "page": "1-26",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          28
+        ]
+      ]
+    },
+    "publisher": "Association for Computing Machinery (ACM)",
+    "url": "https://doi.org/10.1145/3510851"
+  },
+  "13": {
+    "doi": "10.1109/JETCAS.2017.2776980",
+    "title": [
+      "Stuck-at Fault Tolerance in RRAM Computing Systems"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7731-7028",
+        "authenticated-orcid": false,
+        "given": "Lixue",
+        "family": "Xia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenqin",
+        "family": "Huangfu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianqi",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiling",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Krishnendu",
+        "family": "Chakrabarty",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2093-1788",
+        "authenticated-orcid": false,
+        "given": "Yuan",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6108-5157",
+        "authenticated-orcid": false,
+        "given": "Yu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huazhong",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Journal on Emerging and Selected Topics in Circuits and Systems"
+    ],
+    "volume": "8",
+    "issue": "1",
+    "page": "102-115",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          3
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/jetcas.2017.2776980"
+  },
+  "14": {
+    "doi": "10.1109/ITCAsia55616.2022.00012",
+    "title": [
+      "Fault Modeling and Testing of RRAM-based Computing-In Memories"
+    ],
+    "authors": [
+      {
+        "given": "Yu -Cheng",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "National Central University,Department of Electrical Engineering,Taoyuan,Taiwan,320"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin-Fu",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Central University,Department of Electrical Engineering,Taoyuan,Taiwan,320"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "2022 IEEE International Test Conference in Asia (ITC-Asia)"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "7-12",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          8
+        ]
+      ]
+    },
+    "publisher": "IEEE",
+    "url": "https://doi.org/10.1109/itcasia55616.2022.00012"
+  },
+  "15": {
+    "doi": "10.1109/TVLSI.2024.3380549",
+    "title": [
+      "Fault Diagnosis for Resistive Random Access Memory and Monolithic Inter-Tier Vias in Monolithic 3-D Integration"
+    ],
+    "authors": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1125-6709",
+        "authenticated-orcid": false,
+        "given": "Shao-Chun",
+        "family": "Hung",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Duke University, Durham, NC, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arjun",
+        "family": "Chaudhuri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "NVIDIA Corporation, Santa Clara, CA, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1136-9220",
+        "authenticated-orcid": false,
+        "given": "Sanmitra",
+        "family": "Banerjee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical, Computer and Energy Engineering and the ASU Center for Semiconductor Microelectronics (ACME), Arizona State University, Tempe, AZ, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4475-6435",
+        "authenticated-orcid": false,
+        "given": "Krishnendu",
+        "family": "Chakrabarty",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Electrical, Computer and Energy Engineering and the ASU Center for Semiconductor Microelectronics (ACME), Arizona State University, Tempe, AZ, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+    ],
+    "volume": "32",
+    "issue": "7",
+    "page": "1336-1349",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tvlsi.2024.3380549"
+  },
+  "16": {
+    "doi": "10.1109/DATE.2005.229",
+    "title": [
+      "On the Optimal Design of Triple Modular Redundancy Logic for SRAM-based FPGAs"
+    ],
+    "authors": [
+      {
+        "given": "F.L.",
+        "family": "Kastensmidt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Sterpone",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Carro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.S.",
+        "family": "Reorda",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Design, Automation and Test in Europe"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1290-1295",
+    "published": null,
+    "publisher": "IEEE"
+  },
+  "17": {
+    "doi": "10.1109/TDSC.2004.2",
+    "title": [
+      "Basic concepts and taxonomy of dependable and secure computing"
+    ],
+    "authors": [
+      {
+        "given": "A.",
+        "family": "Avizienis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.-C.",
+        "family": "Laprie",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B.",
+        "family": "Randell",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "C.",
+        "family": "Landwehr",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Dependable and Secure Computing"
+    ],
+    "volume": "1",
+    "issue": "1",
+    "page": "11-33",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          2004,
+          1
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tdsc.2004.2"
+  },
+  "18": {
+    "doi": "10.1109/TC.1976.1674656",
+    "title": [
+      "A Highly Efficient Redundancy Scheme: Self-Purging Redundancy"
+    ],
+    "authors": [
+      {
+        "family": "Losq",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Digital Systems Laboratory, Department of Electrical Engineering and Department of Computer Science, Stanford University"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Computers"
+    ],
+    "volume": "C-25",
+    "issue": "6",
+    "page": "569-578",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          1976,
+          6
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tc.1976.1674656"
+  },
+  "19": {
+    "doi": "10.1002/j.1538-7305.1950.tb00463.x",
+    "title": [
+      "Error Detecting and Error Correcting Codes"
+    ],
+    "authors": [
+      {
+        "given": "R. W.",
+        "family": "Hamming",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Bell System Technical Journal"
+    ],
+    "volume": "29",
+    "issue": "2",
+    "page": "147-160",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          1950,
+          4
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x"
+  },
+  "20": {
+    "doi": "10.1109/TIT.1983.1056763",
+    "title": [
+      "Partitioned linear block codes for computer memory with 'stuck-at' defects"
+    ],
+    "authors": [
+      {
+        "given": "C.",
+        "family": "Heegard",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "IEEE Transactions on Information Theory"
+    ],
+    "volume": "29",
+    "issue": "6",
+    "page": "831-842",
+    "article_number": null,
+    "published": {
+      "date-parts": [
+        [
+          1983,
+          11
+        ]
+      ]
+    },
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "url": "https://doi.org/10.1109/tit.1983.1056763"
+  },
+  "21": {
+    "doi": "10.1109/TEST.1992.527880",
+    "title": [
+      "TRANSPARENT BIST FOR RAMS"
+    ],
+    "authors": [
+      {
+        "given": "M.",
+        "family": "Nicolaidis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "journal": [
+      "Proceedings International Test Conference 1992"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "598",
+    "published": null,
+    "publisher": "IEEE"
+  }
+}

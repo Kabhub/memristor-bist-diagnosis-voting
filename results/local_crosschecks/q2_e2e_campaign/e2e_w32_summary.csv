@@ -1,0 +1,2 @@
+width,cells,scenarios,single_scenarios,double_scenarios,detected,exactly_localized,primary_checks,primary_proposed_passes,primary_tmr_passes,primary_tmr_failures,mixed_checks,mixed_proposed_passes,mixed_tmr_failures,same_bit_scenarios,same_bit_primary_checks,same_bit_primary_tmr_failures,bist_cycles,triple_fault_boundary_passed,clear_map_recovery_passed,status
+32,96,18433,192,18240,18432,18432,36866,36866,36674,192,36866,36866,192,384,768,192,5,1,1,PASS

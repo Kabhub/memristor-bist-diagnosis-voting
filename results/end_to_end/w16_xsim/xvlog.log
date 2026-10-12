@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/E2E_BIST/rtl/publication_scalable_memristor_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module publication_scalable_memristor_core
+INFO: [VRFC 10-311] analyzing module publication_memristor_cell
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Q2/E2E_BIST/tb/tb_q2_bist_e2e.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module q2_bist_e2e_campaign
+INFO: [VRFC 10-311] analyzing module tb_q2_bist_e2e_w16
+INFO: [VRFC 10-311] analyzing module tb_q2_bist_e2e_w32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Q2/E2E_BIST/results/w16_20261011_160346_1791714827897/project/e2e.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,31 @@
+Progress: 100 / 1153 scenarios
+Progress: 200 / 1153 scenarios
+Progress: 300 / 1153 scenarios
+Progress: 400 / 1153 scenarios
+Progress: 500 / 1153 scenarios
+Progress: 600 / 1153 scenarios
+Progress: 700 / 1153 scenarios
+Progress: 800 / 1153 scenarios
+Progress: 900 / 1153 scenarios
+Progress: 1000 / 1153 scenarios
+Progress: 1100 / 1153 scenarios
+====================================================
+Q2 FAULT CAMPAIGN COMPLETE
+Total scenarios                         : 1153
+Injected single/double-fault scenarios : 1152
+Detected scenarios                      : 1152
+Exactly localized scenarios             : 1152
+False positives in no-fault baseline    : 0
+Proposed voter word checks passed       : 2306/2306
+Standard TMR word checks passed         : 2258/2306
+Standard TMR failures                   : 48
+Critical same-bit double scenarios      : 96
+Critical standard-TMR failures          : 48/192
+Detection coverage                      : 100%
+Localization accuracy                   : 100%
+Diagnosis-guided correction success     : 100%
+ALL 1,153 Q2 CAMPAIGN SCENARIOS PASSED
+- tb_fault_campaign_q2_1153.sv:342: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 92us; walltime 0.013 s; speed 7.190 ms/s
+- Verilator: cpu 0.013 s on 1 threads; allocated 6 MB

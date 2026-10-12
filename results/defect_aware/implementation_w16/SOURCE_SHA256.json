@@ -1,0 +1,12 @@
+{
+  "1_RUN_SIMULATION.bat": "9020e0bab14881044a9c7a263346deee9b1aeea096b08b1b5fee4e846988f2d2",
+  "2_RUN_IMPLEMENTATION.bat": "0cded119a2fbf9a42f095054c3cf4fc66764162343fc60f59cc2e67836ab6dbd",
+  "README.md": "9c1e7d6b5a3d3b0f6fff328dbf11e4c9aeaa85450f1cefefa2e16a50fc25ccbd",
+  "rtl/publication_scalable_memristor_core.sv": "d256d3dce20659650bb2b382c14afaf6ced9c29db505ebdf88e318bc814ba414",
+  "rtl/q2_proposed_wrapper.sv": "a865eee94acda04e11cb239f6953f3eacaf666cc468a8ac997e6e6a86c9ee55c",
+  "rtl/q2_registered_benchmarks.sv": "b56222b9c1cdf58bf73fee92a26bab39dcf221131feb14acd6075facba509517",
+  "rtl/q2_shared_spare_core.sv": "266447e06659b3f4dfc3049c8ba02e2461591635bb851f85d3f4bd7d30686b97",
+  "run_implementation.tcl": "7d5a5b79de63aeb0931da0810a63829f26af43a9817207859db5e64fbb13f5ce",
+  "run_simulation.tcl": "f02d232276f367b46f93db8f44938e4b72ea0c0672568d10fc405e368bbcde8f",
+  "tb/tb_q2_remap.sv": "a45ba91a2c8d8ee93ef8cfaeb28a8735313df5c601e10624012f3cebedd48d82"
+}

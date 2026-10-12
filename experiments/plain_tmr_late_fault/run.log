@@ -1,0 +1,5 @@
+ALL 384 PLAIN TMR SINGLE-NEW-FAULT CHECKS PASSED
+- output/review3_experiments/tb_plain_tmr_late_sweep.sv:37: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 19us; walltime 0.002 s; speed 8.595 ms/s
+- Verilator: cpu 0.002 s on 1 threads; allocated 6 MB

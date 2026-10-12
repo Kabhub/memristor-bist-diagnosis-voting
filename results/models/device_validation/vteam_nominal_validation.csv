@@ -1,0 +1,3 @@
+operation,voltage_v,duration_s,initial_resistance_ohms,final_resistance_ohms,classifier_threshold_ohms,expected_bit,classified_bit,agreement
+RESET_to_HRS,1.0,0.2605459057071961,100.0,2500.0,1300.0,0,0,1
+SET_to_LRS,-1.0,1.8820594906716254e-10,2500.0,100.0,1300.0,1,1,1

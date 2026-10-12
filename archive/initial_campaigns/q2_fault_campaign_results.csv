@@ -1,0 +1,13 @@
+metric,value,scope
+Total scenarios,1153,No-fault plus every single and double stuck-resistance scenario
+Injected fault scenarios,1152,48 single plus 1104 double faults
+Detected scenarios,1152,Deterministic stuck-at-LRS/HRS model
+Exactly localized scenarios,1152,Exact physical replica and fault type
+No-fault false positives,0,One fault-free baseline
+Proposed voter word checks passed,2306,Two functional words per scenario
+Proposed voter word checks total,2306,Two functional words per scenario
+Standard TMR word checks passed,2258,Parallel baseline output
+Standard TMR word checks failed,48,Same-bit same-type double faults
+Same-bit double-fault scenarios,96,Three replica pairs and four type combinations across eight bits
+Critical same-bit word checks,192,Two functional words per critical scenario
+Critical standard-TMR failures,48,Ordinary voter baseline

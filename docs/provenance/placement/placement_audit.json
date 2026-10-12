@@ -1,0 +1,216 @@
+{
+  "checks_passed": 130,
+  "checks": [
+    "Nine summary rows",
+    "Complete unique 3x3 matrix",
+    "Overall completion marker",
+    "Uploaded source manifest equals delivered packet manifest",
+    "Packet source verified: VALIDATION.md",
+    "Packet source verified: RUN_PLACEMENT_STUDY.bat",
+    "Packet source verified: run_implementation.tcl",
+    "Packet source verified: VALIDATION_RECORD.json",
+    "Packet source verified: README.txt",
+    "Packet source verified: rtl/q2_proposed_wrapper.sv",
+    "Packet source verified: rtl/q2_shared_spare_core.sv",
+    "Packet source verified: rtl/publication_scalable_memristor_core.sv",
+    "Packet source verified: rtl/q2_registered_benchmarks.sv",
+    "Completed routed checkpoint: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Harness FF separation: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_proposed_destructive_w16_default_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_two_spares_w16_default_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_matched_cells_w16_default_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Harness FF separation: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_proposed_destructive_w16_explore_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_two_spares_w16_explore_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_matched_cells_w16_explore_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Harness FF separation: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_two_spares_w16_extra_net_delay_high_100MHz",
+    "Completed routed checkpoint: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Flow and timing PASS at W16/100MHz: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "CSV slacks match raw timing: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Zero setup/hold/pulse-width failing endpoints: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "All internal endpoints constrained and clocked: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "CSV core LUT/FF match raw report: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "CSV power matches rounded raw report: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Clock/BUFG and explicit external bank exceptions: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Routed expected part/version and zero methodology checks: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Slack indicator arithmetic: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Harness FF separation: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Reported directive matches strategy matrix: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz",
+    "Measurement boundary and confidence: placement_sensitivity_remap_matched_cells_w16_extra_net_delay_high_100MHz"
+  ],
+  "summary": {
+    "proposed_destructive": {
+      "luts": [
+        278.0,
+        278.0
+      ],
+      "ffs": [
+        165.0,
+        165.0
+      ],
+      "wns_ns": [
+        4.084,
+        4.121
+      ],
+      "whs_ns": [
+        0.157,
+        0.157
+      ],
+      "total_power_mw": [
+        107.0,
+        107.0
+      ],
+      "dynamic_power_mw": [
+        4.0,
+        4.0
+      ]
+    },
+    "remap_matched_cells": {
+      "luts": [
+        1820.0,
+        1820.0
+      ],
+      "ffs": [
+        313.0,
+        313.0
+      ],
+      "wns_ns": [
+        0.565,
+        0.739
+      ],
+      "whs_ns": [
+        0.145,
+        0.145
+      ],
+      "total_power_mw": [
+        116.0,
+        116.0
+      ],
+      "dynamic_power_mw": [
+        13.0,
+        13.0
+      ]
+    },
+    "remap_two_spares": {
+      "luts": [
+        462.0,
+        462.0
+      ],
+      "ffs": [
+        157.0,
+        157.0
+      ],
+      "wns_ns": [
+        2.809,
+        2.856
+      ],
+      "whs_ns": [
+        0.091,
+        0.116
+      ],
+      "total_power_mw": [
+        108.0,
+        108.0
+      ],
+      "dynamic_power_mw": [
+        5.0,
+        5.0
+      ]
+    }
+  },
+  "scope": "Three placement directives, fixed Default routing, W16, one part, 100 MHz. Not independent random seeds. Source manifest matches packet; uploaded results do not contain a contemporaneous source rehash or command log."
+}

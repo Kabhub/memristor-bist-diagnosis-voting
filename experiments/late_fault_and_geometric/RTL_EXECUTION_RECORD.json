@@ -1,0 +1,9 @@
+{
+  "simulator": "Verilator 5.49",
+  "actual_build_exit_code": 0,
+  "actual_run_exit_code": 0,
+  "generated_make_command": "make -C tmp/late_sweep_build -f Vtb_late_fault_sweep.mk -j2 CXX=g++ CFG_CXXFLAGS_PCH_I=-include CFG_CXXFLAGS_STD=-std=c++20",
+  "actual_execution": "tmp/late_sweep_build/Vtb_late_fault_sweep, cwd output/review2_experiments",
+  "run_log": "late_run.log",
+  "scope": "Every physical cell, both permanent polarities, four backgrounds after clean actual BIST; retest+rewrite is restoration of service."
+}

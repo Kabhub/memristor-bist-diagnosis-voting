@@ -1,0 +1,25 @@
+Time resolution is 1 ps
+End-to-end RTL campaign: WIDTH=16, CELLS=48, scenarios=4609
+E2E progress: 250 / 4609 scenarios
+E2E progress: 500 / 4609 scenarios
+E2E progress: 750 / 4609 scenarios
+E2E progress: 1000 / 4609 scenarios
+E2E progress: 1250 / 4609 scenarios
+E2E progress: 1500 / 4609 scenarios
+E2E progress: 1750 / 4609 scenarios
+E2E progress: 2000 / 4609 scenarios
+E2E progress: 2250 / 4609 scenarios
+E2E progress: 2500 / 4609 scenarios
+E2E progress: 2750 / 4609 scenarios
+E2E progress: 3000 / 4609 scenarios
+E2E progress: 3250 / 4609 scenarios
+E2E progress: 3500 / 4609 scenarios
+E2E progress: 3750 / 4609 scenarios
+E2E progress: 4000 / 4609 scenarios
+E2E progress: 4250 / 4609 scenarios
+E2E progress: 4500 / 4609 scenarios
+ALL 4609 END-TO-END BIST SCENARIOS PASSED
+Primary proposed checks: 9218/9218; standard TMR failures: 96
+Additional alternating-pattern checks: 9218/9218
+Triple-fault rejection and fault-map clearing checks passed.
+$finish called at time : 691546 ns : File "C:/Q2/E2E_BIST/tb/tb_q2_bist_e2e.sv" Line 244

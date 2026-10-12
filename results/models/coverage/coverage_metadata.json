@@ -1,0 +1,15 @@
+{
+  "widths": [
+    8,
+    16,
+    32
+  ],
+  "fault_model": "deterministic stuck-HRS/0 and stuck-LRS/1",
+  "tmr_enumeration": "exact order 0, 1, and 2 over 3*WIDTH cells",
+  "data_patterns": [
+    "all_zero",
+    "all_one"
+  ],
+  "accepted_correct_definition": "output equals expected and uncorrectable is false",
+  "secded_policy": "correct single-bit errors; detect/reject double-bit errors"
+}

@@ -1,0 +1,10 @@
+PASS fault-free baseline          U=a5 STD=a5 PROP=a5 UNC=0 cycles=5
+PASS HRS bit2 replicas A+B        U=fb STD=fb PROP=ff UNC=0 cycles=5
+PASS LRS bit3 replicas A+B        U=8 STD=8 PROP=0 UNC=0 cycles=5
+PASS HRS bit1 replica A           U=fd STD=ff PROP=ff UNC=0 cycles=5
+PASS HRS bit0 replicas A+B+C      U=fe STD=fe PROP=fe UNC=1 cycles=5
+ALL PUBLICATION ARCHITECTURE COMPARISON TESTS PASSED
+- tb_publication_architecture_comparison.sv:197: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 386ns; walltime 0.000 s; speed 2.354 ms/s
+- Verilator: cpu 0.000 s on 1 threads; allocated 6 MB

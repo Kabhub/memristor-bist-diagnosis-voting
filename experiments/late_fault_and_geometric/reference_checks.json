@@ -1,0 +1,534 @@
+{
+  "10.1109/TVLSI.2005.848824": {
+    "title": [
+      "A built-in self-repair design for RAMs with 2-D redundancy"
+    ],
+    "author": [
+      {
+        "family": "Jin-Fu Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.-C.",
+        "family": "Yeh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Rei-Fu Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Cheng-Wen Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "container-title": [
+      "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
+    ],
+    "volume": "13",
+    "issue": "6",
+    "page": "742-745",
+    "published": {
+      "date-parts": [
+        [
+          2005,
+          6
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1109/tvlsi.2005.848824",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/92/31398/01458790.pdf?arnumber=1458790",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/VTS.2014.6818762": {
+    "title": [
+      "Detection, diagnosis, and repair of faults in memristor-based memories"
+    ],
+    "author": [
+      {
+        "given": "Sachhidh",
+        "family": "Kannan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naghmeh",
+        "family": "Karimi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ramesh",
+        "family": "Karri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ozgur",
+        "family": "Sinanoglu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2014 IEEE 32nd VLSI Test Symposium (VTS)"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "1-6",
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          4
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1109/vts.2014.6818762",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6811042/6818727/06818762.pdf?arnumber=6818762",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1145/1815961.1816011": {
+    "title": [
+      "Modeling critical sections in Amdahl's law and its implications for multicore design"
+    ],
+    "author": [
+      {
+        "given": "Stijn",
+        "family": "Eyerman",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Ghent University, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lieven",
+        "family": "Eeckhout",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ghent University, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "ACM",
+    "container-title": [
+      "Proceedings of the 37th annual international symposium on Computer architecture"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "362-370",
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          6,
+          19
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1145/1815961.1816011",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/1815961.1816011",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/1815961.1816011",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/MICRO.2010.46": {
+    "title": [
+      "SAFER: Stuck-At-Fault Error Recovery for Memories"
+    ],
+    "author": [
+      {
+        "given": "Nak Hee",
+        "family": "Seong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong Hyuk",
+        "family": "Woo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vijayalakshmi",
+        "family": "Srinivasan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jude A.",
+        "family": "Rivers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hsien-Hsin S.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "115-124",
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          12
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1109/micro.2010.46",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/5692847/5695520/05695530.pdf?arnumber=5695530",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1145/2540708.2540745": {
+    "title": [
+      "Aegis"
+    ],
+    "author": [
+      {
+        "given": "Jie",
+        "family": "Fan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Song",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wayne State University, Detroit, MI"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiwu",
+        "family": "Shu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Youhui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weimin",
+        "family": "Zhen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University, Beijing, China and Tsinghua National Laboratory for Information Science and Technology, Beijing, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "ACM",
+    "container-title": [
+      "Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "433-444",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          7
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1145/2540708.2540745",
+    "link": [
+      {
+        "URL": "https://dl.acm.org/doi/10.1145/2540708.2540745",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://dl.acm.org/doi/pdf/10.1145/2540708.2540745",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/HPCA.2011.5749750": {
+    "title": [
+      "Storage free confidence estimation for the TAGE branch predictor"
+    ],
+    "author": [
+      {
+        "given": "Andre",
+        "family": "Seznec",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "publisher": "IEEE",
+    "container-title": [
+      "2011 IEEE 17th International Symposium on High Performance Computer Architecture"
+    ],
+    "volume": null,
+    "issue": null,
+    "page": "443-454",
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1109/hpca.2011.5749750",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/5743111/5749710/05749750.pdf?arnumber=5749750",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  },
+  "10.1109/T-C.1973.223707": {
+    "title": [
+      "Switch Complexity in Systems with Hybrid Redundancy"
+    ],
+    "author": [
+      {
+        "given": "D.P.",
+        "family": "Siewiorek",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "E.J.",
+        "family": "McCluskey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "container-title": [
+      "IEEE Transactions on Computers"
+    ],
+    "volume": "C-22",
+    "issue": "3",
+    "page": "276-282",
+    "published": {
+      "date-parts": [
+        [
+          1973,
+          3
+        ]
+      ]
+    },
+    "URL": "https://doi.org/10.1109/t-c.1973.223707",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/12/35074/01672300.pdf?arnumber=1672300",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ]
+  }
+}

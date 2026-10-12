@@ -1,0 +1,33 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sun Oct 11 19:05:07 2026
+| Host         : DESKTOP-EVDHGI9 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -file C:/Q2/Q2_Placement_Study/results/placement_study_w16/placement_sensitivity_proposed_destructive_w16_extra_net_delay_high_100MHz/utilization_hierarchical.rpt
+| Design       : review_proposed_destructive_registered_benchmark
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++------------------------------------------------------+-------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+|                       Instance                       |                Module               | Total LUTs | Logic LUTs | LUTRAMs | SRLs | FFs | RAMB36 | RAMB18 | DSP Blocks |
++------------------------------------------------------+-------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+| review_proposed_destructive_registered_benchmark     |                               (top) |        278 |        278 |       0 |    0 | 428 |      0 |      0 |          0 |
+|   (review_proposed_destructive_registered_benchmark) |                               (top) |          0 |          0 |       0 |    0 | 263 |      0 |      0 |          0 |
+|   dut                                                | review_proposed_destructive_wrapper |        278 |        278 |       0 |    0 | 165 |      0 |      0 |          0 |
+|     core                                             | publication_scalable_memristor_core |        278 |        278 |       0 |    0 | 165 |      0 |      0 |          0 |
+|       (core)                                         | publication_scalable_memristor_core |        230 |        230 |       0 |    0 | 117 |      0 |      0 |          0 |
++------------------------------------------------------+-------------------------------------+------------+------------+---------+------+-----+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

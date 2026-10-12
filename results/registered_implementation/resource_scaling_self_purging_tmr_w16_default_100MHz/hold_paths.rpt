@@ -1,0 +1,959 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Sun Oct 11 02:04:53 2026
+| Host         : DESKTOP-EVDHGI9 running 64-bit major release  (build 9200)
+| Command      : report_timing -delay_type min -max_paths 20 -file C:/Q2/q2_review_experiments/review_results/vivado_quick_registered_v7/resource_scaling_self_purging_tmr_w16_default_100MHz/hold_paths.rpt
+| Design       : review_self_purging_registered_benchmark
+| Device       : 7z020-clg484
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.192ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[11]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[11].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.338ns  (logic 0.187ns (55.325%)  route 0.151ns (44.675%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.280ns
+    Source Clock Delay      (SCD):    0.990ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.554     0.990    bench_clk
+    SLICE_X35Y67         FDRE                                         r  inject_lrs_fault_map_launch_reg[11]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y67         FDRE (Prop_fdre_C_Q)         0.141     1.131 f  inject_lrs_fault_map_launch_reg[11]/Q
+                         net (fo=3, routed)           0.151     1.282    dut/core/gen_cells[11].cell_a/fault_mode[0]
+    SLICE_X34Y67         LUT3 (Prop_lut3_I1_O)        0.046     1.328 r  dut/core/gen_cells[11].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.328    dut/core/gen_cells[11].cell_a/stored_resistance[13]
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.819     1.280    dut/core/gen_cells[11].cell_a/clk
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.003    <hidden>
+    SLICE_X34Y67         FDSE (Hold_fdse_C_D)         0.133     1.136    dut/core/gen_cells[11].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.136    <hidden>
+                         arrival time                           1.328    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.192    <hidden>
+
+Slack (MET) :             0.192ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[31]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[15].cell_b/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.338ns  (logic 0.187ns (55.291%)  route 0.151ns (44.709%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.277ns
+    Source Clock Delay      (SCD):    0.987ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.551     0.987    bench_clk
+    SLICE_X33Y70         FDRE                                         r  inject_lrs_fault_map_launch_reg[31]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y70         FDRE (Prop_fdre_C_Q)         0.141     1.128 f  inject_lrs_fault_map_launch_reg[31]/Q
+                         net (fo=3, routed)           0.151     1.279    dut/core/gen_cells[15].cell_b/fault_mode[0]
+    SLICE_X32Y70         LUT3 (Prop_lut3_I1_O)        0.046     1.325 r  dut/core/gen_cells[15].cell_b/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.325    dut/core/gen_cells[15].cell_b/stored_resistance[13]
+    SLICE_X32Y70         FDSE                                         r  dut/core/gen_cells[15].cell_b/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.816     1.277    dut/core/gen_cells[15].cell_b/clk
+    SLICE_X32Y70         FDSE                                         r  dut/core/gen_cells[15].cell_b/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.000    <hidden>
+    SLICE_X32Y70         FDSE (Hold_fdse_C_D)         0.133     1.133    dut/core/gen_cells[15].cell_b/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.133    <hidden>
+                         arrival time                           1.325    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.192    <hidden>
+
+Slack (MET) :             0.194ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[43]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[11].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.339ns  (logic 0.190ns (56.013%)  route 0.149ns (43.987%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.280ns
+    Source Clock Delay      (SCD):    0.990ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.554     0.990    bench_clk
+    SLICE_X35Y67         FDRE                                         r  inject_lrs_fault_map_launch_reg[43]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y67         FDRE (Prop_fdre_C_Q)         0.141     1.131 f  inject_lrs_fault_map_launch_reg[43]/Q
+                         net (fo=3, routed)           0.149     1.280    dut/core/gen_cells[11].cell_c/fault_mode[0]
+    SLICE_X34Y67         LUT3 (Prop_lut3_I1_O)        0.049     1.329 r  dut/core/gen_cells[11].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.329    dut/core/gen_cells[11].cell_c/stored_resistance[13]
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.819     1.280    dut/core/gen_cells[11].cell_c/clk
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.003    <hidden>
+    SLICE_X34Y67         FDSE (Hold_fdse_C_D)         0.132     1.135    dut/core/gen_cells[11].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.135    <hidden>
+                         arrival time                           1.329    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.194    <hidden>
+
+Slack (MET) :             0.197ns  (arrival time - required time)
+  Source:                 operational_write_data_launch_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[0].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.360ns  (logic 0.190ns (52.773%)  route 0.170ns (47.227%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.031ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.279ns
+    Source Clock Delay      (SCD):    0.989ns
+    Clock Pessimism Removal (CPR):    0.259ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.553     0.989    bench_clk
+    SLICE_X33Y68         FDRE                                         r  operational_write_data_launch_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y68         FDRE (Prop_fdre_C_Q)         0.141     1.130 f  operational_write_data_launch_reg[0]/Q
+                         net (fo=3, routed)           0.170     1.300    dut/core/gen_cells[0].cell_c/write_data
+    SLICE_X34Y68         LUT3 (Prop_lut3_I2_O)        0.049     1.349 r  dut/core/gen_cells[0].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.349    dut/core/gen_cells[0].cell_c/stored_resistance[13]
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.818     1.279    dut/core/gen_cells[0].cell_c/clk
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.259     1.020    <hidden>
+    SLICE_X34Y68         FDSE (Hold_fdse_C_D)         0.132     1.152    dut/core/gen_cells[0].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.152    <hidden>
+                         arrival time                           1.349    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.197    <hidden>
+
+Slack (MET) :             0.218ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[17]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[1].cell_b/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.357ns  (logic 0.190ns (53.215%)  route 0.167ns (46.785%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.035ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.296ns
+    Source Clock Delay      (SCD):    1.002ns
+    Clock Pessimism Removal (CPR):    0.259ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.566     1.002    bench_clk
+    SLICE_X27Y70         FDRE                                         r  inject_lrs_fault_map_launch_reg[17]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y70         FDRE (Prop_fdre_C_Q)         0.141     1.143 f  inject_lrs_fault_map_launch_reg[17]/Q
+                         net (fo=3, routed)           0.167     1.310    dut/core/gen_cells[1].cell_b/fault_mode[0]
+    SLICE_X28Y70         LUT3 (Prop_lut3_I1_O)        0.049     1.359 r  dut/core/gen_cells[1].cell_b/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.359    dut/core/gen_cells[1].cell_b/stored_resistance[13]
+    SLICE_X28Y70         FDSE                                         r  dut/core/gen_cells[1].cell_b/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.835     1.296    dut/core/gen_cells[1].cell_b/clk
+    SLICE_X28Y70         FDSE                                         r  dut/core/gen_cells[1].cell_b/stored_resistance_reg[13]/C
+                         clock pessimism             -0.259     1.037    <hidden>
+    SLICE_X28Y70         FDSE (Hold_fdse_C_D)         0.104     1.141    dut/core/gen_cells[1].cell_b/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.141    <hidden>
+                         arrival time                           1.359    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.218    <hidden>
+
+Slack (MET) :             0.231ns  (arrival time - required time)
+  Source:                 inject_hrs_fault_map_launch_reg[34]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[2].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.376ns  (logic 0.235ns (62.479%)  route 0.141ns (37.521%))
+  Logic Levels:           2  (LUT2=1 LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.302ns
+    Source Clock Delay      (SCD):    1.010ns
+    Clock Pessimism Removal (CPR):    0.279ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.574     1.010    bench_clk
+    SLICE_X31Y63         FDRE                                         r  inject_hrs_fault_map_launch_reg[34]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X31Y63         FDRE (Prop_fdre_C_Q)         0.141     1.151 r  inject_hrs_fault_map_launch_reg[34]/Q
+                         net (fo=1, routed)           0.052     1.203    dut/core/inject_hrs_fault_map[34]
+    SLICE_X30Y63         LUT2 (Prop_lut2_I0_O)        0.045     1.248 r  dut/core/gen_cells[2].cell_c_i_1/O
+                         net (fo=2, routed)           0.089     1.337    dut/core/gen_cells[2].cell_c/fault_mode[1]
+    SLICE_X30Y63         LUT3 (Prop_lut3_I0_O)        0.049     1.386 r  dut/core/gen_cells[2].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.386    dut/core/gen_cells[2].cell_c/stored_resistance[13]
+    SLICE_X30Y63         FDSE                                         r  dut/core/gen_cells[2].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.841     1.302    dut/core/gen_cells[2].cell_c/clk
+    SLICE_X30Y63         FDSE                                         r  dut/core/gen_cells[2].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.279     1.023    <hidden>
+    SLICE_X30Y63         FDSE (Hold_fdse_C_D)         0.132     1.155    dut/core/gen_cells[2].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.155    <hidden>
+                         arrival time                           1.386    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.231    <hidden>
+
+Slack (MET) :             0.247ns  (arrival time - required time)
+  Source:                 dut/core/active_replica_mask_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            corrected_data_capture_reg[0]/D
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.351ns  (logic 0.209ns (59.576%)  route 0.142ns (40.424%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.280ns
+    Source Clock Delay      (SCD):    0.990ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.554     0.990    dut/core/clk
+    SLICE_X32Y67         FDRE                                         r  dut/core/active_replica_mask_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y67         FDRE (Prop_fdre_C_Q)         0.164     1.154 r  dut/core/active_replica_mask_reg[1]/Q
+                         net (fo=22, routed)          0.142     1.296    dut/core/active_replica_mask[1]
+    SLICE_X33Y67         LUT6 (Prop_lut6_I1_O)        0.045     1.341 r  dut/core/corrected_data[0]_INST_0/O
+                         net (fo=1, routed)           0.000     1.341    corrected_data_core[0]
+    SLICE_X33Y67         FDRE                                         r  corrected_data_capture_reg[0]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.819     1.280    bench_clk
+    SLICE_X33Y67         FDRE                                         r  corrected_data_capture_reg[0]/C
+                         clock pessimism             -0.277     1.003    <hidden>
+    SLICE_X33Y67         FDRE (Hold_fdre_C_D)         0.091     1.094    corrected_data_capture_reg[0]
+  -------------------------------------------------------------------
+                         required time                         -1.094    <hidden>
+                         arrival time                           1.341    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.247    <hidden>
+
+Slack (MET) :             0.247ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[27]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[11].cell_b/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.393ns  (logic 0.188ns (47.792%)  route 0.205ns (52.208%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.280ns
+    Source Clock Delay      (SCD):    0.991ns
+    Clock Pessimism Removal (CPR):    0.276ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.555     0.991    bench_clk
+    SLICE_X35Y66         FDRE                                         r  inject_lrs_fault_map_launch_reg[27]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X35Y66         FDRE (Prop_fdre_C_Q)         0.141     1.132 f  inject_lrs_fault_map_launch_reg[27]/Q
+                         net (fo=3, routed)           0.205     1.337    dut/core/gen_cells[11].cell_b/fault_mode[0]
+    SLICE_X34Y67         LUT3 (Prop_lut3_I1_O)        0.047     1.384 r  dut/core/gen_cells[11].cell_b/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.384    dut/core/gen_cells[11].cell_b/stored_resistance[13]
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_b/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.819     1.280    dut/core/gen_cells[11].cell_b/clk
+    SLICE_X34Y67         FDSE                                         r  dut/core/gen_cells[11].cell_b/stored_resistance_reg[13]/C
+                         clock pessimism             -0.276     1.004    <hidden>
+    SLICE_X34Y67         FDSE (Hold_fdse_C_D)         0.133     1.137    dut/core/gen_cells[11].cell_b/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.137    <hidden>
+                         arrival time                           1.384    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.247    <hidden>
+
+Slack (MET) :             0.248ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[0]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[0].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.399ns  (logic 0.186ns (46.598%)  route 0.213ns (53.402%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.031ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.279ns
+    Source Clock Delay      (SCD):    0.989ns
+    Clock Pessimism Removal (CPR):    0.259ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.553     0.989    bench_clk
+    SLICE_X33Y68         FDRE                                         r  inject_lrs_fault_map_launch_reg[0]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y68         FDRE (Prop_fdre_C_Q)         0.141     1.130 f  inject_lrs_fault_map_launch_reg[0]/Q
+                         net (fo=3, routed)           0.213     1.343    dut/core/gen_cells[0].cell_a/fault_mode[0]
+    SLICE_X34Y68         LUT3 (Prop_lut3_I1_O)        0.045     1.388 r  dut/core/gen_cells[0].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.388    dut/core/gen_cells[0].cell_a/stored_resistance[13]
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.818     1.279    dut/core/gen_cells[0].cell_a/clk
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.259     1.020    <hidden>
+    SLICE_X34Y68         FDSE (Hold_fdse_C_D)         0.120     1.140    dut/core/gen_cells[0].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.140    <hidden>
+                         arrival time                           1.388    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.248    <hidden>
+
+Slack (MET) :             0.259ns  (arrival time - required time)
+  Source:                 operational_write_data_launch_reg[7]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[7].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.405ns  (logic 0.188ns (46.369%)  route 0.217ns (53.631%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.281ns
+    Source Clock Delay      (SCD):    0.992ns
+    Clock Pessimism Removal (CPR):    0.276ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.556     0.992    bench_clk
+    SLICE_X33Y65         FDRE                                         r  operational_write_data_launch_reg[7]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y65         FDRE (Prop_fdre_C_Q)         0.141     1.133 f  operational_write_data_launch_reg[7]/Q
+                         net (fo=3, routed)           0.217     1.350    dut/core/gen_cells[7].cell_a/write_data
+    SLICE_X32Y66         LUT3 (Prop_lut3_I2_O)        0.047     1.397 r  dut/core/gen_cells[7].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.397    dut/core/gen_cells[7].cell_a/stored_resistance[13]
+    SLICE_X32Y66         FDSE                                         r  dut/core/gen_cells[7].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.820     1.281    dut/core/gen_cells[7].cell_a/clk
+    SLICE_X32Y66         FDSE                                         r  dut/core/gen_cells[7].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.276     1.005    <hidden>
+    SLICE_X32Y66         FDSE (Hold_fdse_C_D)         0.133     1.138    dut/core/gen_cells[7].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.138    <hidden>
+                         arrival time                           1.397    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.259    <hidden>
+
+Slack (MET) :             0.260ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[1].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.400ns  (logic 0.187ns (46.804%)  route 0.213ns (53.196%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.035ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.296ns
+    Source Clock Delay      (SCD):    1.002ns
+    Clock Pessimism Removal (CPR):    0.259ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.566     1.002    bench_clk
+    SLICE_X27Y70         FDRE                                         r  inject_lrs_fault_map_launch_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X27Y70         FDRE (Prop_fdre_C_Q)         0.141     1.143 f  inject_lrs_fault_map_launch_reg[1]/Q
+                         net (fo=3, routed)           0.213     1.355    dut/core/gen_cells[1].cell_a/fault_mode[0]
+    SLICE_X28Y70         LUT3 (Prop_lut3_I1_O)        0.046     1.401 r  dut/core/gen_cells[1].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.401    dut/core/gen_cells[1].cell_a/stored_resistance[13]
+    SLICE_X28Y70         FDSE                                         r  dut/core/gen_cells[1].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.835     1.296    dut/core/gen_cells[1].cell_a/clk
+    SLICE_X28Y70         FDSE                                         r  dut/core/gen_cells[1].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.259     1.037    <hidden>
+    SLICE_X28Y70         FDSE (Hold_fdse_C_D)         0.105     1.142    dut/core/gen_cells[1].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.142    <hidden>
+                         arrival time                           1.401    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.260    <hidden>
+
+Slack (MET) :             0.263ns  (arrival time - required time)
+  Source:                 dut/core/ambiguous_latched_reg/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/ambiguous_latched_reg/D
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.354ns  (logic 0.186ns (52.507%)  route 0.168ns (47.493%))
+  Logic Levels:           1  (LUT6=1)
+  Clock Path Skew:        0.000ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.281ns
+    Source Clock Delay      (SCD):    0.991ns
+    Clock Pessimism Removal (CPR):    0.290ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.555     0.991    dut/core/clk
+    SLICE_X33Y66         FDRE                                         r  dut/core/ambiguous_latched_reg/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y66         FDRE (Prop_fdre_C_Q)         0.141     1.132 r  dut/core/ambiguous_latched_reg/Q
+                         net (fo=2, routed)           0.168     1.300    dut/core/ambiguous_latched_reg_n_0
+    SLICE_X33Y66         LUT6 (Prop_lut6_I0_O)        0.045     1.345 r  dut/core/ambiguous_latched_i_1/O
+                         net (fo=1, routed)           0.000     1.345    dut/core/ambiguous_latched_i_1_n_0
+    SLICE_X33Y66         FDRE                                         r  dut/core/ambiguous_latched_reg/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.820     1.281    dut/core/clk
+    SLICE_X33Y66         FDRE                                         r  dut/core/ambiguous_latched_reg/C
+                         clock pessimism             -0.290     0.991    <hidden>
+    SLICE_X33Y66         FDRE (Hold_fdre_C_D)         0.091     1.082    dut/core/ambiguous_latched_reg
+  -------------------------------------------------------------------
+                         required time                         -1.082    <hidden>
+                         arrival time                           1.345    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.263    <hidden>
+
+Slack (MET) :             0.265ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[15]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[15].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.384ns  (logic 0.186ns (48.411%)  route 0.198ns (51.589%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.015ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.275ns
+    Source Clock Delay      (SCD):    0.984ns
+    Clock Pessimism Removal (CPR):    0.276ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.548     0.984    bench_clk
+    SLICE_X33Y73         FDRE                                         r  inject_lrs_fault_map_launch_reg[15]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y73         FDRE (Prop_fdre_C_Q)         0.141     1.125 f  inject_lrs_fault_map_launch_reg[15]/Q
+                         net (fo=3, routed)           0.198     1.323    dut/core/gen_cells[15].cell_a/fault_mode[0]
+    SLICE_X33Y72         LUT3 (Prop_lut3_I1_O)        0.045     1.368 r  dut/core/gen_cells[15].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.368    dut/core/gen_cells[15].cell_a/stored_resistance[13]
+    SLICE_X33Y72         FDSE                                         r  dut/core/gen_cells[15].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.814     1.275    dut/core/gen_cells[15].cell_a/clk
+    SLICE_X33Y72         FDSE                                         r  dut/core/gen_cells[15].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.276     0.999    <hidden>
+    SLICE_X33Y72         FDSE (Hold_fdse_C_D)         0.104     1.103    dut/core/gen_cells[15].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.103    <hidden>
+                         arrival time                           1.368    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.265    <hidden>
+
+Slack (MET) :             0.265ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[35]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[3].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.384ns  (logic 0.186ns (48.411%)  route 0.198ns (51.589%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.015ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.297ns
+    Source Clock Delay      (SCD):    1.005ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.569     1.005    bench_clk
+    SLICE_X29Y70         FDRE                                         r  inject_lrs_fault_map_launch_reg[35]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X29Y70         FDRE (Prop_fdre_C_Q)         0.141     1.146 f  inject_lrs_fault_map_launch_reg[35]/Q
+                         net (fo=3, routed)           0.198     1.344    dut/core/gen_cells[3].cell_c/fault_mode[0]
+    SLICE_X29Y69         LUT3 (Prop_lut3_I1_O)        0.045     1.389 r  dut/core/gen_cells[3].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.389    dut/core/gen_cells[3].cell_c/stored_resistance[13]
+    SLICE_X29Y69         FDSE                                         r  dut/core/gen_cells[3].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.836     1.297    dut/core/gen_cells[3].cell_c/clk
+    SLICE_X29Y69         FDSE                                         r  dut/core/gen_cells[3].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.020    <hidden>
+    SLICE_X29Y69         FDSE (Hold_fdse_C_D)         0.104     1.124    dut/core/gen_cells[3].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.124    <hidden>
+                         arrival time                           1.389    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.265    <hidden>
+
+Slack (MET) :             0.268ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[42]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[10].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.387ns  (logic 0.187ns (48.294%)  route 0.200ns (51.706%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.014ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.302ns
+    Source Clock Delay      (SCD):    1.011ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.575     1.011    bench_clk
+    SLICE_X29Y62         FDRE                                         r  inject_lrs_fault_map_launch_reg[42]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X29Y62         FDRE (Prop_fdre_C_Q)         0.141     1.152 f  inject_lrs_fault_map_launch_reg[42]/Q
+                         net (fo=3, routed)           0.200     1.352    dut/core/gen_cells[10].cell_c/fault_mode[0]
+    SLICE_X29Y63         LUT3 (Prop_lut3_I1_O)        0.046     1.398 r  dut/core/gen_cells[10].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.398    dut/core/gen_cells[10].cell_c/stored_resistance[13]
+    SLICE_X29Y63         FDSE                                         r  dut/core/gen_cells[10].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.841     1.302    dut/core/gen_cells[10].cell_c/clk
+    SLICE_X29Y63         FDSE                                         r  dut/core/gen_cells[10].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.025    <hidden>
+    SLICE_X29Y63         FDSE (Hold_fdse_C_D)         0.105     1.130    dut/core/gen_cells[10].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.130    <hidden>
+                         arrival time                           1.398    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.268    <hidden>
+
+Slack (MET) :             0.269ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[5]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[5].cell_a/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.388ns  (logic 0.186ns (47.953%)  route 0.202ns (52.047%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.015ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.294ns
+    Source Clock Delay      (SCD):    1.002ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.566     1.002    bench_clk
+    SLICE_X28Y73         FDRE                                         r  inject_lrs_fault_map_launch_reg[5]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X28Y73         FDRE (Prop_fdre_C_Q)         0.141     1.143 f  inject_lrs_fault_map_launch_reg[5]/Q
+                         net (fo=3, routed)           0.202     1.345    dut/core/gen_cells[5].cell_a/fault_mode[0]
+    SLICE_X28Y72         LUT3 (Prop_lut3_I1_O)        0.045     1.390 r  dut/core/gen_cells[5].cell_a/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.390    dut/core/gen_cells[5].cell_a/stored_resistance[13]
+    SLICE_X28Y72         FDSE                                         r  dut/core/gen_cells[5].cell_a/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.833     1.294    dut/core/gen_cells[5].cell_a/clk
+    SLICE_X28Y72         FDSE                                         r  dut/core/gen_cells[5].cell_a/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     1.017    <hidden>
+    SLICE_X28Y72         FDSE (Hold_fdse_C_D)         0.104     1.121    dut/core/gen_cells[5].cell_a/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.121    <hidden>
+                         arrival time                           1.390    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.269    <hidden>
+
+Slack (MET) :             0.269ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[47]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[15].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.415ns  (logic 0.211ns (50.818%)  route 0.204ns (49.182%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.277ns
+    Source Clock Delay      (SCD):    0.988ns
+    Clock Pessimism Removal (CPR):    0.276ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.552     0.988    bench_clk
+    SLICE_X32Y69         FDRE                                         r  inject_lrs_fault_map_launch_reg[47]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y69         FDRE (Prop_fdre_C_Q)         0.164     1.152 f  inject_lrs_fault_map_launch_reg[47]/Q
+                         net (fo=3, routed)           0.204     1.356    dut/core/gen_cells[15].cell_c/fault_mode[0]
+    SLICE_X32Y70         LUT3 (Prop_lut3_I1_O)        0.047     1.403 r  dut/core/gen_cells[15].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.403    dut/core/gen_cells[15].cell_c/stored_resistance[13]
+    SLICE_X32Y70         FDSE                                         r  dut/core/gen_cells[15].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.816     1.277    dut/core/gen_cells[15].cell_c/clk
+    SLICE_X32Y70         FDSE                                         r  dut/core/gen_cells[15].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.276     1.001    <hidden>
+    SLICE_X32Y70         FDSE (Hold_fdse_C_D)         0.133     1.134    dut/core/gen_cells[15].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.134    <hidden>
+                         arrival time                           1.403    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.269    <hidden>
+
+Slack (MET) :             0.270ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[40]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[8].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.416ns  (logic 0.213ns (51.176%)  route 0.203ns (48.824%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.014ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.282ns
+    Source Clock Delay      (SCD):    0.992ns
+    Clock Pessimism Removal (CPR):    0.276ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.556     0.992    bench_clk
+    SLICE_X32Y64         FDRE                                         r  inject_lrs_fault_map_launch_reg[40]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X32Y64         FDRE (Prop_fdre_C_Q)         0.164     1.156 f  inject_lrs_fault_map_launch_reg[40]/Q
+                         net (fo=3, routed)           0.203     1.359    dut/core/gen_cells[8].cell_c/fault_mode[0]
+    SLICE_X32Y65         LUT3 (Prop_lut3_I1_O)        0.049     1.408 r  dut/core/gen_cells[8].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.408    dut/core/gen_cells[8].cell_c/stored_resistance[13]
+    SLICE_X32Y65         FDSE                                         r  dut/core/gen_cells[8].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.821     1.282    dut/core/gen_cells[8].cell_c/clk
+    SLICE_X32Y65         FDSE                                         r  dut/core/gen_cells[8].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.276     1.006    <hidden>
+    SLICE_X32Y65         FDSE (Hold_fdse_C_D)         0.132     1.138    dut/core/gen_cells[8].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.138    <hidden>
+                         arrival time                           1.408    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.270    <hidden>
+
+Slack (MET) :             0.275ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[44]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[12].cell_c/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.421ns  (logic 0.186ns (44.159%)  route 0.235ns (55.841%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.013ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.276ns
+    Source Clock Delay      (SCD):    0.986ns
+    Clock Pessimism Removal (CPR):    0.277ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.550     0.986    bench_clk
+    SLICE_X33Y71         FDRE                                         r  inject_lrs_fault_map_launch_reg[44]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y71         FDRE (Prop_fdre_C_Q)         0.141     1.127 f  inject_lrs_fault_map_launch_reg[44]/Q
+                         net (fo=3, routed)           0.235     1.362    dut/core/gen_cells[12].cell_c/fault_mode[0]
+    SLICE_X32Y71         LUT3 (Prop_lut3_I1_O)        0.045     1.407 r  dut/core/gen_cells[12].cell_c/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.407    dut/core/gen_cells[12].cell_c/stored_resistance[13]
+    SLICE_X32Y71         FDSE                                         r  dut/core/gen_cells[12].cell_c/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.815     1.276    dut/core/gen_cells[12].cell_c/clk
+    SLICE_X32Y71         FDSE                                         r  dut/core/gen_cells[12].cell_c/stored_resistance_reg[13]/C
+                         clock pessimism             -0.277     0.999    <hidden>
+    SLICE_X32Y71         FDSE (Hold_fdse_C_D)         0.133     1.132    dut/core/gen_cells[12].cell_c/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.132    <hidden>
+                         arrival time                           1.407    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.275    <hidden>
+
+Slack (MET) :             0.277ns  (arrival time - required time)
+  Source:                 inject_lrs_fault_map_launch_reg[16]/C
+                            (rising edge-triggered cell FDRE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            dut/core/gen_cells[0].cell_b/stored_resistance_reg[13]/D
+                            (rising edge-triggered cell FDSE clocked by review_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             review_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (review_clk rise@0.000ns - review_clk rise@0.000ns)
+  Data Path Delay:        0.441ns  (logic 0.188ns (42.597%)  route 0.253ns (57.403%))
+  Logic Levels:           1  (LUT3=1)
+  Clock Path Skew:        0.031ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    1.279ns
+    Source Clock Delay      (SCD):    0.989ns
+    Clock Pessimism Removal (CPR):    0.259ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.410     0.410    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.026     0.436 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.553     0.989    bench_clk
+    SLICE_X33Y68         FDRE                                         r  inject_lrs_fault_map_launch_reg[16]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X33Y68         FDRE (Prop_fdre_C_Q)         0.141     1.130 f  inject_lrs_fault_map_launch_reg[16]/Q
+                         net (fo=3, routed)           0.253     1.383    dut/core/gen_cells[0].cell_b/fault_mode[0]
+    SLICE_X34Y68         LUT3 (Prop_lut3_I1_O)        0.047     1.430 r  dut/core/gen_cells[0].cell_b/stored_resistance[13]_i_1/O
+                         net (fo=1, routed)           0.000     1.430    dut/core/gen_cells[0].cell_b/stored_resistance[13]
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_b/stored_resistance_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock review_clk rise edge)
+                                                      0.000     0.000 r  <hidden>
+                                                      0.000     0.000 r  clk
+                         net (fo=0)                   0.432     0.432    clk
+    BUFGCTRL_X0Y0        BUFG (Prop_bufg_I_O)         0.029     0.461 r  bench_clock_buffer/O
+                         net (fo=190, routed)         0.818     1.279    dut/core/gen_cells[0].cell_b/clk
+    SLICE_X34Y68         FDSE                                         r  dut/core/gen_cells[0].cell_b/stored_resistance_reg[13]/C
+                         clock pessimism             -0.259     1.020    <hidden>
+    SLICE_X34Y68         FDSE (Hold_fdse_C_D)         0.133     1.153    dut/core/gen_cells[0].cell_b/stored_resistance_reg[13]
+  -------------------------------------------------------------------
+                         required time                         -1.153    <hidden>
+                         arrival time                           1.430    <hidden>
+  -------------------------------------------------------------------
+                         slack                                  0.277    <hidden>
+
+
+
+

@@ -1,0 +1,1 @@
+ALL 144 LATE-FAULT CHECKS PASSED: remap_two_spares

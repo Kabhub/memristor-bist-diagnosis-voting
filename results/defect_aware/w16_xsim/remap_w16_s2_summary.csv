@@ -1,0 +1,2 @@
+width,spares,cells,scenarios,single_scenarios,double_scenarios,exactly_localized,word_checks,correct_word_checks,paired_proposed_checks,paired_proposed_correct,paired_tmr_failures,bist_diagnosis_cycles,allocation_cycles,total_test_cycles,boundary_checks_passed,status
+16,2,18,649,36,612,648,2596,2596,0,0,0,5,16,21,1,PASS
